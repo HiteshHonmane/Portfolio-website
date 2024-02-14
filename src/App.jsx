@@ -4,6 +4,7 @@ import { ThemeProvider } from './contexts/theme'
 import ThemeBtn from './components/ThemeBtn'
 import Hero from './Components/Hero'
 import About from './Components/About'
+import Index from './Index'
 
 
 
@@ -30,11 +31,9 @@ function App() {
     <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>
       <div className="w-full  flex justify-end mt-4">
         <ThemeBtn />
-        <img src="" alt="" />
-        
+        <img className=' w-7' src="src\Icons\darkmode.svg " alt="" />
       </div>
-      <Hero/>
-      <About/>
+      <Index/>
     </ThemeProvider>
   )
 }

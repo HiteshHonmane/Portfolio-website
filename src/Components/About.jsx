@@ -27,7 +27,7 @@ function About() {
       <div className='relative lg:left-44 2xl:left-52 font-AvenirLight font-thin text-2xl text-start z-10' >
         Writing A clean and Performace optimised code which gives an edge to website and gives me satisfaction.
       </div>
-      <div ref={aboutRef} className=' flex  flex-row overflow-clip absolute text-[250px] font-semibold text-gray-300 opacity-50 '>ABOUT ME</div>
+      <div ref={aboutRef} className=' flex  flex-row overflow-clip absolute text-8xl font-semibold text-gray-300 opacity-50 '>ABOUT ME</div>
     </div>
   );
 }
