@@ -1,6 +1,26 @@
 import React from 'react'
+import { useEffect, useRef } from 'react'
 
 function Skills() {
+  const skillsRef = useRef(null);
+  useEffect(() => {
+    const handleScroll = () => {
+      if (skillsRef.current) {
+        const scrollPercentage = window.scrollY / (document.body.scrollHeight - window.innerHeight);
+        const maxOffset = 100;
+        const minOffset = -50;
+        let offset = minOffset + (maxOffset - minOffset) * scrollPercentage;
+        //Limit Defined
+        offset = Math.max(minOffset, Math.min(maxOffset, offset));
+        skillsRef.current.style.transform = `translateX(${offset}%)`
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [])
+
   return (
     <div className=' flex justify-between items-center h-[100vh]'>
       <div id="technical-skills" className='flex flex-col w-[200px] text-start font-AvenirRoman text-xl z-10'>
@@ -10,9 +30,9 @@ function Skills() {
         Tailwind
       </div>
       <div id="Technologies-skills" className='flex flex-wrap flex-col w-[50vh]  font-AvenirRoman text-xl z-10'>
-      Figma
+        Figma
       </div>
-      <div className=' flex absolute text-[200px] font-semibold text-gray-300 font-AvenirRoman opacity-50 '>
+      <div ref={skillsRef} className=' flex absolute text-[200px] font-semibold text-gray-300  opacity-50 '>
         SKILLS
       </div>
     </div>

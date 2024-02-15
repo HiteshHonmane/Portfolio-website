@@ -1,2 +1,1 @@
-1.About me tailwind issue.
- 
+1.About me tailwind issue. FIXED issue
