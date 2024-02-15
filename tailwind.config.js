@@ -25,7 +25,7 @@ export default {
         '5xl': 'clamp(3.81rem, 5.18vw + 2.52rem, 6.66rem)',
         '6xl': 'clamp(4.77rem, 7.48vw + 2.9rem, 8.88rem)',
         '7xl': 'clamp(5.96rem, 10.69vw + 3.29rem, 11.84rem)',
-        '8xl': 'clamp(7.45rem, 15.14vw + 3.66rem, 15.78rem)',
+        '8xl': 'clamp(7rem, 14.14vw + 3.66rem, 12.78rem)',
         ' 9xl': 'clamp(9.31rem, 21.31vw + 3.99rem, 21.03rem)',
         '10xl': 'clamp(11.64rem, 29.81vw + 4.19rem, 28.04rem)',
         '11xl': 'clamp(14.55rem, 41.5vw + 4.18rem, 37.38rem)',

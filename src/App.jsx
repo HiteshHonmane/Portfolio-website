@@ -29,7 +29,7 @@ function App() {
 
   return (
     <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>
-      <div className="w-full  flex justify-end mt-4">
+      <div className="w-full flex justify-end pr-8 mt-4">
         <ThemeBtn />
         <img className=' w-7' src="src\Icons\darkmode.svg " alt="" />
       </div>

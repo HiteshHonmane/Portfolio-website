@@ -3,6 +3,13 @@ Done ! carrange them in router.
 Done ! basic tailwind.
 Done ! Basic Functions.
 full tailwind.
+ a. Alinement 
+Done hero
+  contact
+  skills
+  socials
+  projects
+ 
 Adding Project
 advance funtion animations.
 
