@@ -8,13 +8,13 @@ function About() {
       if (aboutRef.current) {
         const scrollPercentage = window.scrollY / (document.body.scrollHeight - window.innerHeight);
         const maxOffset = 70; // Adjust as needed
-        const minOffset = -70; // Adjust as needed
+        const minOffset = -40; // Adjust as needed
         let offset = minOffset + (maxOffset - minOffset) * scrollPercentage;
 
         // Ensure offset doesn't exceed the limits
         offset = Math.max(minOffset, Math.min(maxOffset, offset));
 
-        aboutRef.current.style.transform = `translateX(${offset}%)`;
+        aboutRef.current.style.transform = `translateX(${offset}vw)`;
       }
     };
 
