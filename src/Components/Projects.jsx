@@ -5,7 +5,7 @@ import Architect from './Projects/Architect'
 
 function Projects() {
   return (
-    <div className=' flex justify-center items-center  h-[100vh]'>
+    <div className=' '>
     <Spotify/>
     <Netflix/>
     <Architect/>

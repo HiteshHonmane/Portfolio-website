@@ -2,7 +2,7 @@ import React from 'react'
 
 function Netflix() {
   return (
-    <div>Netflix</div>
+    <div className='h-[100vh] w-[100vw]'>Netflix</div>
   )
 }
 
