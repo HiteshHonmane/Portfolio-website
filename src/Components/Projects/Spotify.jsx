@@ -11,12 +11,12 @@ function Spotify() {
         <div id="middle" className=' flex flex-col items-start px-24 '>
 
 
-          <h2 className=' font-Avenir text-4xl font-bold text-[#333333]  pb-8 '> FR Design system </h2>
+          <h2 className=' font-Avenir text-4xl font-bold text-[#333333]  pb-8 '> Spotify Clone </h2>
 
           <div className='flex '>
           <h4 className=' font-AvenirMedium text-[#333333]  text-xl font- '>Additionl features </h4>
           <img className='h-7 m-3 ' src="src\assets\Text Icons\Dot.svg"  alt="" /> 
-          <h4 className='font-AvenirMedium text-[#333333]  text-xl'>Handling API </h4>  
+          <h4 className='font-AvenirMedium text-[#333333]  text-xl'> API Handling </h4>  
           </div>
           
           <p className='text-lg'

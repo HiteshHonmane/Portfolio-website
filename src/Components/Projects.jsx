@@ -7,8 +7,9 @@ function Projects() {
   return (
     <div className=' '>
     <Spotify/>
-    <Netflix/>
     <Architect/>
+    <Netflix/>
+    
     </div>
     
 

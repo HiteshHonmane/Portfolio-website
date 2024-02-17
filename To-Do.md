@@ -9,10 +9,10 @@ done ! contact
 Done ! skills
 Done ! socials
 
-Projects
+ Projects
 
-Add Project
-Add Tailwind to projects.
+Done! Add Project
+Done! Tailwind to projects.
 text Animations.
 Project images collection.
 Adding Images.
