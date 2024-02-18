@@ -2,7 +2,7 @@ import React from 'react'
 
 function Spotify() {
   return (
-    <div className=' flex h-[100vh] w[100vw] relative border-gray-500 border-2 ' id="main">
+    <div className=' sm:flex sm:flex-row flex-row sm:h-[100vh] sm:w[100vw] h-[200vh] relative border-gray-500 border-2 ' id="main">
       <div id="left-side "
         className=' flex flex-col justify-between relative h-[100vh] w-[50vw]'>
         <div id="top" className=' font- px-12 pt-14 text-xl font-bold text-[#333333]' >
@@ -31,7 +31,13 @@ function Spotify() {
 
       </div>
       <div id="right-side "
-        className=' relative h-[100vh]  w-[50vw]'>
+        className=' relative sm:h-[100vh]  sm:w-[50vw] w-[100vh] h-[100vh]' >
+          <div className=' sm:flex gap-7  sm:flex-row flex-row '>
+        
+            <img className='w-60' src="src\assets\Project Imgs\Spotify Mobile .png" alt="" />
+            <img className='w-60' src="src\assets\Project Imgs\Spotify Mobile library.png" alt="" />
+
+          </div>
 
       </div>
     </div>

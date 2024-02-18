@@ -9,10 +9,7 @@ function Netflix() {
           03
         </div>
         <div id="middle" className=' flex flex-col items-start px-24 '>
-
-
-          <h2 className=' font-Avenir text-4xl font-bold text-[#333333]  pb-8 '> Netflix Clone</h2>
-
+          <h2 className=' font-Avenir text-4xl font-bold text-[#333333]  pb-8 '> Netflix UI Clone</h2>
           <div className='flex '>
           <h4 className=' font-AvenirMedium text-[#333333]  text-xl font- '>Production Grade Code</h4>
           <img className='h-7 m-3 ' src="src\assets\Text Icons\Dot.svg"  alt="" /> 
