@@ -23,6 +23,8 @@ function Skills() {
       }
     };
   
+
+    //i will add more offset
     window.addEventListener('scroll', handleScroll);
     handleScroll(); // Call it initially to set the initial position
     return () => {
