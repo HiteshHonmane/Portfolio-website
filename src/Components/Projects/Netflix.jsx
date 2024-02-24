@@ -21,6 +21,8 @@ function Netflix() {
             can customize you own library  </p>
         </div>
 
+        
+
         <div id="bottom" className=' flex underline relative bottom-14 px-12 text-lg font-bold text-[#333333] '>
           LIVE APP <img className=' h-6  mt-3' src="src\assets\Text Icons\Arrow.svg" alt="" />
         </div>
