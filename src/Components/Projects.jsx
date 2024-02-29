@@ -1,15 +1,30 @@
 import React from 'react'
-import Spotify from './Projects/Spotify'
-import Netflix from './Projects/Netflix'
-import Architect from './Projects/Architect'
+import Project from './Projects/Project'
+
+
+
 
 function Projects() {
+
+  const projectObj1={
+    name:"Blog",
+    index:"1",
+    Highlight1:"API Handling",
+    Highlight2:"Additional Features",
+    detailText:"Songs can be played from local storage \n you  can customize you own library",
+  }
+  const projectObj2={
+    name:"Image Editor",
+    Highlight1:"API Handling",
+    Highlight2:"HTML Canva"
+  }
+
+
+
   return (
     <div className=' '>
-    <Spotify/>
-    <Architect/>
-    <Netflix/>
-    
+    <Project {...projectObj1}/>
+    <Project {...projectObj2}/>
     </div>
     
 

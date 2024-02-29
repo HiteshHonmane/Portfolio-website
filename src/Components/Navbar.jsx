@@ -1,20 +1,17 @@
 import  React from 'react'
-import { CgProfile } from "react-icons/cg";
-import { SiAboutdotme } from "react-icons/si";
-import { GrProjects } from "react-icons/gr";
 
 function Navbar (){
 
     return(
-        <div className=' fixed top-10 w-16  z-20  flex flex-col  gap-4 ml-4 px-4 border-gray-600 bg-[rgba(203,200,200,0.41)] rounded-xl p-7 shadow-black   '>
-            <div className='w-9 ' id="Home">
-                <img className='w-11'  src="src\assets\Nav Icons\Profile.svg" alt="" /></div>
-            <div className='w-9  ' id='about'>
-                <img className='w-11' src="src\assets\Nav Icons\About.svg" alt="" /></div>
-            <div className='w-9  ' id='projects'>
-                <img className='w-11' src="src\assets\Nav Icons\Projects.svg" alt="" /></div>
-            <div className='w-9  ' id="contact">
-                <img className='w-11' src="src\assets\Nav Icons\Contact.svg" alt="" /></div>
+        <div className=' fixed bottom-0 left- w-14  z-20  flex flex-col  gap-14 m-3 p-4 border-gray-600 bg-[rgba(232,226,226,0.34)] rounded-full   '>
+            <div className='' id="Home">
+                <img className='w-6'  src="src\assets\Nav Icons\Profile.svg" alt="" /></div>
+            <div className='  ' id='about'>
+                <img className='w-6' src="src\assets\Nav Icons\About.svg" alt="" /></div>
+            <div className='  ' id='projects'>
+                <img className='w-6' src="src\assets\Nav Icons\Projects.svg" alt="" /></div>
+            <div className='  ' id="contact">
+                <img className='w-6' src="src\assets\Nav Icons\Contact.svg" alt="" /></div>
         </div>
     )
 }

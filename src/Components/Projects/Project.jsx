@@ -1,9 +1,9 @@
 import React from "react";
 
-function Architect() {
+function Spotify(props) {
   return (
     <div
-      className=" sm:flex sm:flex-row flex-row sm:h-[100vh] sm:w[100vw] h-[200vh] relative border-gray-500 border-2 "
+      className=" sm:flex sm:flex-row flex-row sm:h-[100vh] sm:w[100vw] h-[200vh] relative  "
       id="main"
     >
       <div
@@ -12,19 +12,19 @@ function Architect() {
       >
         <div
           id="top"
-          className=" font- px-12 pt-14 text-xl font-bold text-[#333333]"
+          className=" font- px-16 pt-14 text-xl font-bold text-[#333333]"
         >
-          01
+        {props.index} 
+        {/* //Coming Form Projects File */}
         </div>
         <div id="middle" className=" flex flex-col items-start px-24 ">
           <h2 className=" font-Avenir text-4xl font-bold text-[#333333]  pb-8 ">
-            {" "}
-            Architect agency{" "}
+           {props.name}
           </h2>
 
           <div className="flex ">
             <h4 className=" font-AvenirMedium text-[#333333]  text-xl font- ">
-              Additionl features{" "}
+              {props.Highlight2}
             </h4>
             <img
               className="h-7 m-3 "
@@ -32,30 +32,25 @@ function Architect() {
               alt=""
             />
             <h4 className="font-AvenirMedium text-[#333333]  text-xl">
-              {" "}
-              API Handling{" "}
+             {props.Highlight1}
             </h4>
           </div>
 
           <p className="text-lg">
-            Songs can be played from local storage you <br />
-            can customize you own library{" "}
+           {props.detailText}
           </p>
-          <div className=" flex gap-3 mt-3 ">
-            <div
-              className="flex
-            "
-            >
-              <span className=" font-AvenirMedium text-[#333333]  text-lg font-medium ">
-                Technology's
-              </span>
-              <img
-                className="h-7 m-1 "
-                src="src\assets\Text Icons\Dot.svg"
-                alt=""
-              />
+          <div  className=" flex gap-3 mt-3 ">
+            <div className="flex
+            "><span className=" font-AvenirMedium text-[#333333]  text-lg font-medium ">
+            Technology's
+            </span>
+            <img
+              className="h-7 m-1 "
+              src="src\assets\Text Icons\Dot.svg"
+              alt=""
+            />
             </div>
-
+            
             <img className="w-9" src="src\assets\Skills Icons\Js.svg" alt="" />
             <img className="w-9" src="src\assets\Skills Icons\Css.svg" alt="" />
             <img
@@ -99,4 +94,4 @@ function Architect() {
   );
 }
 
-export default Architect;
+export default Spotify;
