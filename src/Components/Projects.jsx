@@ -7,16 +7,17 @@ import Project from './Projects/Project'
 function Projects() {
 
   const projectObj1={
-    name:"Blog",
+    name:"Blog Website",
     index:"1",
     Highlight1:"API Handling",
     Highlight2:"Additional Features",
-    detailText:"Songs can be played from local storage \n you  can customize you own library",
+    detailText:"Can Create and upload post with image",
   }
   const projectObj2={
-    name:"Image Editor",
+    name:"Spotify Clone",
     Highlight1:"API Handling",
-    Highlight2:"HTML Canva"
+    Highlight2:"Used Hawler JS library",
+    detailText:"Songs Can Be played And you can create your own library"
   }
 
 

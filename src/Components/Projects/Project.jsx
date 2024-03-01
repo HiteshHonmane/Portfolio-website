@@ -1,9 +1,10 @@
 import React from "react";
 
-function Spotify(props) {
+function Projects(props) {
   return (
+
     <div
-      className=" sm:flex sm:flex-row flex-row sm:h-[100vh] sm:w[100vw] h-[200vh] relative  "
+      className=" sm:flex sm:flex-row flex-row sm:h-[100vh] sm:w[100vw] h-[200vh] relative  dark:bg-[#374151] "
       id="main"
     >
       <div
@@ -12,18 +13,18 @@ function Spotify(props) {
       >
         <div
           id="top"
-          className=" font- px-16 pt-14 text-xl font-bold text-[#333333]"
+          className=" font- px-20 pt-14 text-xl font-bold text-[#333333] dark:text-gray-400"
         >
         {props.index} 
         {/* //Coming Form Projects File */}
         </div>
         <div id="middle" className=" flex flex-col items-start px-24 ">
-          <h2 className=" font-Avenir text-4xl font-bold text-[#333333]  pb-8 ">
+          <h2 className=" font-Avenir text-4xl font-bold text-[#333333]  pb-8 dark:text-gray-950">
            {props.name}
           </h2>
 
           <div className="flex ">
-            <h4 className=" font-AvenirMedium text-[#333333]  text-xl font- ">
+            <h4 className=" font-AvenirMedium text-[#333333]  text-xl dark:text-gray-400 font- ">
               {props.Highlight2}
             </h4>
             <img
@@ -31,17 +32,17 @@ function Spotify(props) {
               src="src\assets\Text Icons\Dot.svg"
               alt=""
             />
-            <h4 className="font-AvenirMedium text-[#333333]  text-xl">
+            <h4 className="font-AvenirMedium text-[#333333] dark:text-gray-400 text-xl">
              {props.Highlight1}
             </h4>
           </div>
 
-          <p className="text-lg">
+          <p className="text-lg dark:text-gray-400">
            {props.detailText}
           </p>
           <div  className=" flex gap-3 mt-3 ">
             <div className="flex
-            "><span className=" font-AvenirMedium text-[#333333]  text-lg font-medium ">
+            "><span className=" font-AvenirMedium dark:text-gray-400 text-[#333333]  text-lg font-medium ">
             Technology's
             </span>
             <img
@@ -63,7 +64,7 @@ function Spotify(props) {
 
         <div
           id="bottom"
-          className=" flex underline relative bottom-14 px-12 text-lg font-bold text-[#333333] "
+          className=" flex underline relative bottom-14  text-lg font-bold text-[#333333] dark:text-gray-400 px-20 "
         >
           LIVE APP{" "}
           <img
@@ -94,4 +95,4 @@ function Spotify(props) {
   );
 }
 
-export default Spotify;
+export default Projects;
