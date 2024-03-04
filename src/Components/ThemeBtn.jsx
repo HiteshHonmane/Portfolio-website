@@ -15,7 +15,7 @@ export default function ThemeBtn() {
     }
     return (
         
-        <label className="relative inline-flex items-center cursor-pointer  dark:bg-slate-700">
+        <label className="relative inline-flex items-center cursor-pointer  ">
             <input
                 type="checkbox"
                 value=""

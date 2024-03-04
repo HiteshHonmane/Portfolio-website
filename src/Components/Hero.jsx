@@ -6,7 +6,7 @@ function Hero() {
   
 
   return (
-    <div className='dark:bg-gray-700'>
+    <div className=''>
       <Navbar/>
        <div className="main-section sm:min-h-dvh min-h-[50vh] flex justify-center items-center border-none outline-none ">
       <div className='Name-page'>

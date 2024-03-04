@@ -27,7 +27,7 @@ function Skills(props) {
   }, []);
 
   return (
-    <div className=" overflow-x-hidden flex justify-around items-center h-[100vh] dark:bg-gray-700">
+    <div className=" overflow-x-hidden flex justify-around items-center h-[100vh] ">
       <div
         id="technical-skills"
         className="flex flex-col w-[200px] ml-10 gap-8  sm:gap-2 text-start font-AvenirRoman dark:text-gray-950 sm:text-xl z-10"
