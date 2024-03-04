@@ -4,6 +4,7 @@ import About from './Components/About'
 import Projects from './Components/Projects'
 import Skills from './Components/Skills'
 import Contact from './Components/Contact'
+import SkillsIndex from './Components/SkillsIndex'
 
 
 function Index() {
@@ -12,7 +13,7 @@ function Index() {
     <Hero/>
     <About/>
     <Projects/>
-    <Skills/>
+    <SkillsIndex/>
     <Contact/>
     </>
   )

@@ -27,11 +27,18 @@ function Contact() {
 
   return (
     <>
-      <div className="   dark:bg-gray-700 ">
+      <div className=" flex h-[100vh] justify-start items-center flex-wrap sm:justify-center sm:items-center  dark:bg-gray-700 ">
+
+        
+
         <div
-          className=" overflow-x-hidden  h-[100vh] flex items-center justify-around  "
+        
+          className=" flex-row flex-wrap  sm:flex-row   sm:h-[100vh] flex  items-center align-middle justify-center sm:justify-around w-[70vw] sm:w-[98vw]  m-auto gap-9 "
           id="icons"
         >
+          <div className=" sm:hide relative flex text-3xl font-bold font-Avenir ">
+          CONTACT
+        </div>
           <img
             className="h-[5.625rem] z-10"
             src="src\assets\Social Icons\Github.svg"
@@ -57,11 +64,10 @@ function Contact() {
             src="src\assets\Social Icons\StackOverflow.svg"
             alt=" Stack Overflow"
           />
-
           <div
             ref={contactRef}
             id="contact"
-            className=" @apply transition-transform duration-[0.5s] ease-[ease-out] delay-[0s] flex absolute mt-96 text-8xl  font-semibold text-gray-300 opacity-50 dark:text-[rgb(57,56,56)] "
+            className=" hidden md:block @apply transition-transform duration-[0.5s] ease-[ease-out] delay-[0s] sm:flex sm:absolute mt-96 text-8xl  font-semibold text-gray-300 opacity-50 dark:text-[rgb(57,56,56)] "
           >
             CONTACT
           </div>

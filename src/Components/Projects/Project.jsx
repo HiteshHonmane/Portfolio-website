@@ -63,31 +63,27 @@ function Projects(props) {
 
         <div
           id="bottom"
-          className=" flex underline relative bottom-14  sm:text-lg font-bold text-[#333333] dark:text-gray-400 px-5 sm:px-20 "
+          className=" pl-[20vw] flex underline relative bottom-14  sm:text-lg font-bold text-[#333333] dark:text-gray-400 px-5 sm:px-20 "
         >
-          LIVE APP{" "}
+          LIVE APP 
           <img
+
             className=" sm:h-6  sm:mt-3 h-5 mt-1"
             src="src\assets\Text Icons\Arrow.svg"
             alt=""
           />
+          
+          
         </div>
+        
       </div>
       <div
         id="right-side "
         className=" relative sm:h-[100vh]  sm:w-[50vw] w-[100vh] h-[100vh]"
       >
         <div className=" sm:flex gap-7  sm:flex-row flex-row ">
-          <img
-            className="w-60"
-            src="src\assets\Project Imgs\Spotify Mobile .png"
-            alt=""
-          />
-          <img
-            className="w-60"
-            src="src\assets\Project Imgs\Spotify Mobile library.png"
-            alt=""
-          />
+         <img className=" w-10" src={props.imageSrc} alt="" />
+          {/* {img2} */}
         </div>
       </div>
     </div>
