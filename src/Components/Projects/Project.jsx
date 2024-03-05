@@ -1,6 +1,31 @@
 import React from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
+import { useRef } from "react";
+import { useId } from "react";
 
 function Projects(props) {
+  const Id =useId()
+  const container = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: container,
+    offset: ["start end", "end start"],
+  });
+  const sm = useTransform(scrollYProgress, [0, 1], [0, -200]);
+  const md = useTransform(scrollYProgress, [0, 1], [0, -300]);
+  const lg = useTransform(scrollYProgress, [0, 1], [0, -550]);
+
+  //images Coming from my obj which is inside the projects file all details are passed as props from there
+  const images = [
+    {
+      src: props.imageSrc1,
+      y: sm,
+    },
+    { src: props.imageSrc2,
+       y: lg },
+    { src: props.imageSrc3,
+       y: md },
+  ];
+
   return (
     <div
       className=" sm:flex sm:flex-row flex-row sm:h-[100vh] sm:w[100vw] h-[200vh] relative "
@@ -78,8 +103,8 @@ function Projects(props) {
           id="bottom"
           className=" sm:pl-[5vw] pl-4 flex  underline relative bottom-14  sm:text-lg font-bold text-[#333333] dark:text-gray-400 px-2 sm:px-20 "
         >
-          <a href={''} className="sm:flex">  
-          {/* //project link */}
+          <a href={""} className="sm:flex">
+            {/* //project link */}
             <div>LIVE APP</div>
             <img
               className="sm:h-6 sm:mt-3 h-5 mt-1"
@@ -101,15 +126,22 @@ function Projects(props) {
           </a>
         </div>
       </div>
-      <div
+      <motion.div
+        ref={container}
         id="right-side "
         className=" relative sm:h-[100vh]  sm:w-[50vw] w-[100vh] h-[100vh]"
       >
-        <div className=" sm:flex gap-7  sm:flex-row flex-row ">
-          <img className=" w-10" src={props.imageSrc} alt="" />
-          {/* {img2} */}
-        </div>
-      </div>
+        {images.map(({ src, y }) => {
+          return (
+            <motion.div
+              style={{ y }}
+              className=" sm:flex gap-7  sm:flex-row flex-row "
+            >
+              <motion.img className=" w-10" src={src} key={Id}  alt="" />
+            </motion.div>
+          );
+        })}
+      </motion.div>
     </div>
   );
 }

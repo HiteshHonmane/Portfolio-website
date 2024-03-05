@@ -5,6 +5,7 @@ import ThemeBtn from './components/ThemeBtn'
 import Hero from './Components/Hero'
 import About from './Components/About'
 import Index from './Index'
+import AnimationProject from './Components/AnimationProject'
 
 
 
@@ -29,11 +30,12 @@ function App() {
 
   return (
     <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>
-      <div className="w-full flex justify-end pr-8 ">
+      <div className="w-full flex justify-end pr-8 pt- ">
         <ThemeBtn />
-        <img className=' w-7' src="src\Icons\darkmode.svg " alt="" />
+        <img className=' w-6 mt-1' src="src\Icons\darkmode.svg " alt="" />
       </div>
       <Index/>
+      <AnimationProject/>
     </ThemeProvider>
   )
 }

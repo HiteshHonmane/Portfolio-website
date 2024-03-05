@@ -12,7 +12,9 @@ function Projects() {
     Highlight1:"API Handling",
     Highlight2:"Additional Features",
     detailText:"Can Create and upload post with image",
-    imageSrc: "src/assets/Project Imgs/Spotify Mobile library.png",
+    imageSrc1: "src/assets/Project Imgs/Spotify Mobile library.png",
+    imageSrc2:"src/assets/Project Imgs/Spotify Mobile library.png",
+    imageSrc3: "src/assets/Project Imgs/Spotify Mobile .png ",
     LiveWebLink:"",
     CodeBaseLink:""
   }
@@ -22,6 +24,9 @@ function Projects() {
     Highlight1:"API Handling",
     Highlight2:"Used Hawler JS library",
     detailText:"Songs Can Be played And you can create your own library",
+    imageSrc1: "src/assets/Project Imgs/Spotify Mobile library.png",
+    imageSrc2:"src/assets/Project Imgs/Spotify Mobile library.png",
+    imageSrc3: "src/assets/Project Imgs/Spotify Mobile .png ",
     LiveWebLink:"",
     CodeBaseLink:""
     
