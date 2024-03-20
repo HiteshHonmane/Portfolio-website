@@ -5,7 +5,7 @@ import ThemeBtn from './components/ThemeBtn'
 import Hero from './Components/Hero'
 import About from './Components/About'
 import Index from './Index'
-import AnimationProject from './Components/AnimationProject'
+import AnimationProject from './Project Animation/AnimatedSections.jsx'
 
 
 
@@ -35,7 +35,7 @@ function App() {
         <img className=' w-6 mt-1' src="src\Icons\darkmode.svg " alt="" />
       </div>
       <Index/>
-      <AnimationProject/>
+      
     </ThemeProvider>
   )
 }
