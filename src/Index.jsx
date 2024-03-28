@@ -5,6 +5,7 @@ import Projects from './Components/Projects'
 import Skills from './Components/Skills'
 import Contact from './Components/Contact'
 import SkillsIndex from './Components/SkillsIndex'
+// import ParallaxEffect from './Components/Parallex'
 
 
 function Index() {
@@ -14,6 +15,8 @@ function Index() {
     <About/>
     <Projects/>
     <SkillsIndex/>
+    {/* <ParallaxEffect/> */}
+
     <Contact/>
     </>
   )
