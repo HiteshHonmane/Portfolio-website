@@ -24,10 +24,12 @@ function Projects() {
     Highlight1:"API Handling",
     Highlight2:"Used Hawler JS library",
     detailText:"Songs Can Be played And you can create your own library",
-    imageSrc1: "src/assets/Project Imgs/Blog Images/Screenshot (145)-front.png",
-    imageSrc2:"src/assets/Project Imgs/Blog Images/Screenshot (140).png",
-    imageSrc3: "src/assets/Project Imgs/Blog Images/Screenshot (141).png",
-    imageSrc4: "src/assets/Project Imgs/Blog Images/Screenshot (141).png",
+    imageSrc1: "src/assets/Project Imgs/Spotify Images/spotify playlist.png",
+    imageSrc2:"src/assets/Project Imgs/Spotify Images/spotify library.png",
+    imageSrc3: "src/assets/Project Imgs/Spotify Mobile .png",
+    imageSrc4: "src/assets/Project Imgs/Spotify Images/spotify  macbook.png",
+    imageSrc5: "src/assets/Project Imgs/Spotify Images/spotify pc.png",
+
     LiveWebLink:"https://spotify-clone-khaki-nine.vercel.app/",
     CodeBaseLink:"https://github.com/HiteshHonmane/Spotify-Clone"
   }
