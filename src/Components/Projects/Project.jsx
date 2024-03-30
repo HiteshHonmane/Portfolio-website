@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect } from "react";
 import {
   motion,
+  px,
   useMotionValueEvent,
   useScroll,
   useTransform,
@@ -49,7 +50,9 @@ function Projects(props) {
   const sm = useTransform(scrollYProgress, [0, 1], [0, -500]);
   const md = useTransform(scrollYProgress, [0, 1], [0, -800]);
   const lg = useTransform(scrollYProgress, [0, 1], [0, -1200]);
-  const xl = useTransform (scrollYProgress, [0,1], [0, -1800]);
+  const xl = useTransform (scrollYProgress, [0,1], [0, -1500]);
+  const xxl = useTransform (scrollYProgress, [0,1], [0, -1200]);
+  const xxxl = useTransform (scrollYProgress, [0,1], [0, -1400]);
   // Images coming from props
   const images = [
     {
@@ -59,6 +62,7 @@ function Projects(props) {
     {
       src: props.imageSrc2,
       y: lg,
+      width: "10%",
     },
     {
       src: props.imageSrc3,
@@ -67,7 +71,11 @@ function Projects(props) {
 
     {
       src: props.imageSrc4,
-      y:xl,
+      y:xxl,
+    },
+    {
+      src: props.imageSrc5,
+      y:xxxl,
     }
   ];
 
@@ -174,11 +182,11 @@ function Projects(props) {
       <motion.div
         ref={container}
         id="right-side"
-        className=" sm:h-[100vh] sm:w-[50vw] w-[100vh] h-[100vh]  flex justify-center items-end"
+        className=" sm:h-[100vh] sm:w-[50vw] w-[100vh] h-[3 00vh]  relative flex justify-center top-[50vh] gap-[5vh] flex-wrap "
       >
-        {images.map(({ src, y  }) => (
-          <motion.div key={Id} style={{ y }} className="flex justify-end items-end  mr-4">
-            <motion.img className="" src={src} alt="" />
+        {images.map(({ src, y, width:width }) => (
+          <motion.div key={Id} style={{ y }} className="flex flex-wrap overflow-x-hidden  justify-end items-end mr-4 ">
+            <motion.img className=" w-[15vw]  flex items-end flex-wrap " src={src} alt="" />
           </motion.div>
         ))}
       </motion.div>
