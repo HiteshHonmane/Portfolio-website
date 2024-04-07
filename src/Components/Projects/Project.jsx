@@ -15,10 +15,13 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 function Projects(props) {
+  const blackRef = useRef()
 
   useEffect(() => {
     const pinSide = document.querySelector('#left-side');
     const target = document.querySelector('#main-project-section');
+    const blackref = document.querySelector('#blacktitle');
+   
 
     gsap.registerPlugin(ScrollTrigger);
 
@@ -29,10 +32,24 @@ function Projects(props) {
       pin: pinSide,
       markers:true,
       toggleActions: 'play none none reverse',
+     
     });
-  
-  
-    
+
+    const tl = gsap.timeline({
+      scrollTrigger:{
+        trigger:target,
+        start: ' top top ',
+        end: 'bottom bottom'
+      
+      }
+     
+    })
+    .to('#blacktitle',{
+      width: 0,
+      duration:0.7,
+      ease: 'ease In Out'
+
+    })
 
     return () => {
       ScrollTrigger.getAll().forEach((trigger) => {
@@ -104,8 +121,11 @@ function Projects(props) {
           id="middle"
           className="relative top-[-186px] flex flex-col items-start px-5 sm:px-24"
         >
-          <h2 className="font-Avenir text-4xl sm:text-4xl font-bold text-[#333333] pb-8 dark:text-gray-950">
+          <h2 className="font-Avenir w-auto  text-4xl sm:text-4xl font-bold text-[#333333] pb-8 dark:text-gray-950">
             {props.name}
+          </h2>
+          <h2 ref={blackRef} id="blacktitle" className="font-Avenir w-[60%] h-[40%] absolute text-4xl sm:text-4xl font-bold text-[#333333] pb-8 dark:text-gray-950 bg-black z-10">
+            
           </h2>
           <div className="flex">
             <h4 className="font-AvenirMedium text-[#333333] sm:text-xl text-[18px] dark:text-gray-400">
@@ -156,9 +176,9 @@ function Projects(props) {
 
         <div
           id="bottom"
-          className="sm:pl-[5vw] pl-4 flex underline relative bottom-14 sm:text-lg font-bold text-[rgb(51,51,51)] dark:text-gray-400 px-2 sm:px-20"
+          className="sm:pl-[5vw] pl-4 flex flex-col underline relative bottom-14 sm:text-lg font-bold text-[rgb(51,51,51)] dark:text-gray-400 px-2 sm:px-20"
         >
-          <a href={props.LiveWebLink} className="sm:flex" target="_blank">
+          <a href={props.LiveWebLink} className="sm:flex " target="_blank">
             <div>LIVE APP</div>
             <img
               className="sm:h-6 sm:mt-3 h-5 mt-1"
@@ -167,7 +187,7 @@ function Projects(props) {
             />
           </a>
           <a href={props.CodeBaseLink} target="" className="flex">
-            <div className="flex absolute mt-10 underline">
+            <div className="flex absolute mt-2 underline">
               CODE BASE
               <img
                 className="sm:h-6 sm:mt-3 h-5 mt-1"
