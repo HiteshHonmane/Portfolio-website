@@ -1,23 +1,72 @@
 import React from 'react'
 import Hero from './Components/Hero'
 import About from './Components/About'
-import Projects from './Components/Projects'
 import Skills from './Components/Skills'
 import Contact from './Components/Contact'
 import SkillsIndex from './Components/SkillsIndex'
+import Blog from './Components/Projects/Blog'
+import Spotify from './Components/Projects/Spotify'
+import Pilors from './Components/Projects/Pilors'
+
 // import ParallaxEffect from './Components/Parallex'
 
 
 function Index() {
+  const projectObjBlog={
+    name:"Blog Website",
+    index:"01",
+    Highlight1:"API Handling",
+    Highlight2:"Additional Features",
+    detailText:"",
+    imageSrc1: "src/assets/Project Imgs/Blog Images/Screenshot (145)-front.png",
+    imageSrc2:"",
+    imageSrc3: "",
+    LiveWebLink:"https://blog-platform-peach.vercel.app/",
+    CodeBaseLink:"https://github.com/HiteshHonmane/Blog-Platform"
+
+  }
+  const projectObjPilors={ 
+    name:"Architect & Interior",
+    index:"01",
+    Highlight1:"Interactive",
+    Highlight2:"Best Animation",
+    detailText:"",
+    imageSrc1: "src/assets/Project Imgs/Blog Images/Screenshot (145)-front.png",
+    imageSrc2:"",
+    imageSrc3: "",
+    LiveWebLink:"https://architect-and-interior.vercel.app/",
+    CodeBaseLink:""
+  }
+
+  const projectObjSpotify={
+    name:"Spotify Clone",
+    index:"02",
+    Highlight1:"API Handling",
+    Highlight2:"Search Songs",
+    detailText:"",
+    imageSrc1: "src/assets/Project Imgs/Spotify Images/spotify playlist.png",
+    imageSrc2:"src/assets/Project Imgs/Spotify Images/spotify library.png",
+    imageSrc3: "src/assets/Project Imgs/Spotify Mobile .png",
+    imageSrc4: "src/assets/Project Imgs/Spotify Images/spotify  macbook.png",
+    imageSrc5: "src/assets/Project Imgs/Spotify Images/spotify pc.png",
+    LiveWebLink:"https://spotify-clone-khaki-nine.vercel.app/",
+    CodeBaseLink:"https://github.com/HiteshHonmane/Spotify-Clone",
+    ReactSvg: ""
+
+  }
+
+
+
   return (
     <>
     <Hero/>
     <About/>
-    <Projects/>
+    <Pilors {...projectObjPilors} />
+    <Blog {...projectObjBlog}/>
+    <Spotify {...projectObjSpotify} />
     <SkillsIndex/>
-    {/* <ParallaxEffect/> */}
-
     <Contact/>
+    
     </>
   )
 }
