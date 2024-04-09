@@ -6,7 +6,7 @@ import Hero from './Components/Hero'
 import About from './Components/About'
 import Lenis from '@studio-freight/lenis'
 import Index from './Index'
-import AnimationProject from './Project Animation/AnimatedSections.jsx'
+
 
 
 
