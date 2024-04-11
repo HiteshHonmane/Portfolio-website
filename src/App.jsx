@@ -1,12 +1,10 @@
 import { useEffect, useState } from 'react'
 import './App.css'
-import { ThemeProvider } from './contexts/Theme.js'
-import ThemeBtn from './components/ThemeBtn'
-import Hero from './Components/Hero'
-import About from './Components/About'
+import { ThemeProvider } from './Contexts/ModeThem'
+
 import Lenis from '@studio-freight/lenis'
 import Index from './Index'
-
+import ThemeBtn from './Components/ModeThemeBtn'
 
 
 
