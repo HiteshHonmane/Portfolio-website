@@ -73,36 +73,17 @@ function Projects(props) {
     target: container,
     offset: ["start end", "end start"],
   });
-  const sm = useTransform(scrollYProgress, [0, 1], [0, -500]);
+  const sm = useTransform(scrollYProgress, [0, 1], [0, -300]);
   const md = useTransform(scrollYProgress, [0, 1], [0, -800]);
   const lg = useTransform(scrollYProgress, [0, 1], [0, -1200]);
-  const xl = useTransform(scrollYProgress, [0, 1], [0, -1500]);
-  const xxl = useTransform(scrollYProgress, [0, 1], [0, -1200]);
-  const xxxl = useTransform(scrollYProgress, [0, 1], [0, -1400]);
+  const xl = useTransform(scrollYProgress, [0, 1], [0, -1000]);
+  
   // Images coming from props
   const images = [
-    {
-      src: props.imageSrc1,
-      y: sm,
-    },
-    {
-      src: props.imageSrc2,
-      y: lg,
-      width: "10%",
-    },
-    {
-      src: props.imageSrc3,
-      y: md,
-    },
-
-    {
-      src: props.imageSrc4,
-      y: xxl,
-    },
-    {
-      src: props.imageSrc5,
-      y: xxxl,
-    },
+    { src: props.imageSrc1, y: sm, width: '15vw'  },
+    { src: props.imageSrc2, y: lg, width: '15vw'  },
+    { src: props.imageSrc3, y: md, width: '18vw'  },
+    { src: props.imageSrc4, y: xl, width: '40vw'  },
   ];
 
   useMotionValueEvent(scrollYProgress, "change", (latest) => {
@@ -244,6 +225,7 @@ function Projects(props) {
             <motion.img
               className=" w-[15vw]  flex items-end flex-wrap "
               src={src}
+              style={{ width }}
               alt=""
             />
           </motion.div>

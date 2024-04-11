@@ -77,15 +77,15 @@ function Spotify(props) {
   const md = useTransform(scrollYProgress, [0, 1], [0, -800]);
   const lg = useTransform(scrollYProgress, [0, 1], [0, -1200]);
   const xl = useTransform(scrollYProgress, [0, 1], [0, -1100]);
-  const xxl = useTransform(scrollYProgress, [0, 1], [0, -1000]);
+  const xxl = useTransform(scrollYProgress, [0, 1], [0, -1300]);
   // const xxxl = useTransform(scrollYProgress, [0, 1], [0, -600]);
   // Images coming from props
   const images = [
     { src: props.imageSrc1, y: sm, width: '15vw'  },
     { src: props.imageSrc2, y: lg, width: '15vw'  },
     { src: props.imageSrc3, y: md, width: '18vw'  },
-    { src: props.imageSrc4, y: xl, width: '27vw'  },
-    { src: props.imageSrc5, y: xxl, width: '30vw'   },
+    { src: props.imageSrc4, y: xl, width: '26vw'  },
+    { src: props.imageSrc5, y: xxl, width: '17vw'   },
   ];
   
 
@@ -149,7 +149,7 @@ function Spotify(props) {
 
           <div className=" relative flex sm:gap-3 gap-2 mt-3 w-[50%] h-[20%]">
             <div className="flex ">
-              <span className="text-[16px] font-AvenirMedium dark:text-gray-400 text-[#333333] sm:text-lg sm:font-medium font-semibold">
+              <span className=" font-Avenir dark:text-gray-400 text-[#333333] sm:text-lg sm:font-medium font-semibold">
                 Tech
               </span>
               <img
