@@ -89,7 +89,7 @@ function Pilors(props) {
     {
       src: props.imageSrc2,
       y: lg,
-      width: "10%",
+      
     },
     {
       src: props.imageSrc3,

@@ -73,37 +73,21 @@ function Spotify(props) {
     target: container,
     offset: ["start end", "end start"],
   });
-  const sm = useTransform(scrollYProgress, [0, 1], [0, -500]);
+  const sm = useTransform(scrollYProgress, [0, 1], [0, -300]);
   const md = useTransform(scrollYProgress, [0, 1], [0, -800]);
   const lg = useTransform(scrollYProgress, [0, 1], [0, -1200]);
-  const xl = useTransform(scrollYProgress, [0, 1], [0, -1500]);
-  const xxl = useTransform(scrollYProgress, [0, 1], [0, -1200]);
-  const xxxl = useTransform(scrollYProgress, [0, 1], [0, -1400]);
+  const xl = useTransform(scrollYProgress, [0, 1], [0, -1100]);
+  const xxl = useTransform(scrollYProgress, [0, 1], [0, -1300]);
+  // const xxxl = useTransform(scrollYProgress, [0, 1], [0, -600]);
   // Images coming from props
   const images = [
-    {
-      src: props.imageSrc1,
-      y: sm,
-    },
-    {
-      src: props.imageSrc2,
-      y: lg,
-      width: "10%",
-    },
-    {
-      src: props.imageSrc3,
-      y: md,
-    },
-
-    {
-      src: props.imageSrc4,
-      y: xxl,
-    },
-    {
-      src: props.imageSrc5,
-      y: xxxl,
-    },
+    { src: props.imageSrc1, y: sm, width: '15vw'  },
+    { src: props.imageSrc2, y: lg, width: '15vw'  },
+    { src: props.imageSrc3, y: md, width: '18vw'  },
+    { src: props.imageSrc4, y: xl, width: '26vw'  },
+    { src: props.imageSrc5, y: xxl, width: '17vw'   },
   ];
+  
 
   useMotionValueEvent(scrollYProgress, "change", (latest) => {
     const scrollContainer = container.current;
@@ -165,7 +149,7 @@ function Spotify(props) {
 
           <div className=" relative flex sm:gap-3 gap-2 mt-3 w-[50%] h-[20%]">
             <div className="flex ">
-              <span className="text-[16px] font-AvenirMedium dark:text-gray-400 text-[#333333] sm:text-lg sm:font-medium font-semibold">
+              <span className=" font-Avenir dark:text-gray-400 text-[#333333] sm:text-lg sm:font-medium font-semibold">
                 Tech
               </span>
               <img
@@ -233,7 +217,7 @@ function Spotify(props) {
       <motion.div
         ref={container}
         id="right-side"
-        className=" sm:h-[100vh] sm:w-[50vw] w-[100vh] h-[300vh]  relative  flex justify-center top-[150vh] gap-[5vh] flex-wrap "
+        className=" sm:h-[100vh] sm:w-[50vw] w-[100vh] h-[300vh]  relative  flex justify-center top-[150vh] gap-[10vh] flex-wrap "
       >
         {images.map(({ src, y, width: width }) => (
           <motion.div
@@ -242,7 +226,9 @@ function Spotify(props) {
             className="flex flex-wrap overflow-x-hidden  justify-end items-end mr-4 "
           >
             <motion.img
-              className=" w-[15vw]  flex items-end flex-wrap "
+              className="   flex items-end flex-wrap "
+              style={{ width }}
+
               src={src}
               alt=""
             />

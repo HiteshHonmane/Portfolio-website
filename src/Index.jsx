@@ -15,15 +15,15 @@ function Index() {
   const projectObjBlog={
     name:"Blog Website",
     index:"01",
-    Highlight1:"API Handling",
-    Highlight2:"Additional Features",
+    Highlight1:"Auth Services",
+    Highlight2:"Write Blog & Post it ",
     detailText:"",
-    imageSrc1: "src/assets/Project Imgs/Blog Images/Screenshot (145)-front.png",
-    imageSrc2:"",
-    imageSrc3: "",
+    imageSrc1: "src/assets/Project Imgs/Blog Images/blog login-portrait.png",
+    imageSrc2:"src/assets/Project Imgs/Blog Images/blog createac-portrait.png",
+    imageSrc3: "src/assets/Project Imgs/Blog Images/blog addpost-portrait.png",
+    imageSrc4: "src/assets/Project Imgs/Blog Images/blog posts mac.png",
     LiveWebLink:"https://blog-platform-peach.vercel.app/",
     CodeBaseLink:"https://github.com/HiteshHonmane/Blog-Platform"
-
   }
   const projectObjPilors={ 
     name:"Architect & Interior",
@@ -48,7 +48,7 @@ function Index() {
     imageSrc2:"src/assets/Project Imgs/Spotify Images/spotify library.png",
     imageSrc3: "src/assets/Project Imgs/Spotify Mobile .png",
     imageSrc4: "src/assets/Project Imgs/Spotify Images/spotify  macbook.png",
-    imageSrc5: "src/assets/Project Imgs/Spotify Images/spotify pc.png",
+    imageSrc5: "src/assets/Project Imgs/Spotify Images/spotify ipad mini.png",
     LiveWebLink:"https://spotify-clone-khaki-nine.vercel.app/",
     CodeBaseLink:"https://github.com/HiteshHonmane/Spotify-Clone",
     ReactSvg: ""
