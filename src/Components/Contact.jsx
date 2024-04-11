@@ -43,7 +43,7 @@ function Contact() {
           >
           <img
             className="h-[5.625rem] z-10"
-            src="src\assets\Social Icons\Github.svg"
+            src="assets\Social Icons\Github.svg"
             alt="Github"
           />
           </a>
@@ -53,7 +53,7 @@ function Contact() {
           >
           <img
             className="h-[5.625rem] z-10"
-            src="src\assets\Social Icons\X.svg"
+            src="assets\Social Icons\X.svg"
             alt="Twitter"
           /></a>
 
@@ -63,7 +63,7 @@ function Contact() {
           >
           <img
             className="h-[5.625rem] z-10"
-            src="src\assets\Social Icons\Linkedin.svg"
+            src="assets\Social Icons\Linkedin.svg"
             alt="Linkedin"
           /> </a>
 
@@ -72,7 +72,7 @@ function Contact() {
           >
           <img
             className="h-[5.625rem] z-10"
-            src="src\assets\Social Icons\Email.svg"
+            src="assets\Social Icons\Email.svg"
             alt="Email"
           />
           </a>
@@ -84,7 +84,7 @@ function Contact() {
           >
             <img
               className="h-[5.625rem] z-10"
-              src="src\assets\Social Icons\StackOverflow.svg"
+              src="assets\Social Icons\StackOverflow.svg"
               alt="Stack Overflow"
             />
           </a>

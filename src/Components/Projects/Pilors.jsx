@@ -77,7 +77,6 @@ function Pilors(props) {
   const sm = useTransform(scrollYProgress, [0, 1], [0, -500]);
   const md = useTransform(scrollYProgress, [0, 1], [0, -800]);
   const lg = useTransform(scrollYProgress, [0, 1], [0, -1200]);
-  const xl = useTransform(scrollYProgress, [0, 1], [0, -1500]);
   const xxl = useTransform(scrollYProgress, [0, 1], [0, -1200]);
   const xxxl = useTransform(scrollYProgress, [0, 1], [0, -1400]);
   // Images coming from props
@@ -178,17 +177,17 @@ function Pilors(props) {
 
             <img
               className="sm:w-9 w-5"
-              src="src\assets\Skills Icons\Js.svg"
+              src="Skills Icons\React.svg"
               alt=""
             />
             <img
               className="sm:w-9 w-5"
-              src="src\assets\Skills Icons\Css.svg"
+              src="Skills Icons\Tailwind.svg"
               alt=""
             />
             <img
               className="sm:w-9 w-5"
-              src="src\assets\Skills Icons\Html.svg"
+              src="\Skills Icons\Figma.svg"
               alt=""
             />
             <div className=" bg-black z-10 absolute w-full h-full black-strip-pilors "></div>
@@ -201,16 +200,16 @@ function Pilors(props) {
         >
           <a
             href={props.LiveWebLink}
-            className="sm:flex w-[20%]  relative "
+            className="sm:flex w-[30%]  relative "
             target="_blank"
           >
             <div>LIVE APP</div>
             <img
-              className="sm:h-6 sm:mt-3 h-5 mt-1"
-              src="src\assets\Text Icons\Arrow.svg"
+              className="sm:h-4 sm:mt-3 h-5 mt-1 ml-2"
+              src="public\Skills Icons\Vercel.svg"
               alt=""
             />
-            <div className=" bg-black z-10 w-full h-full absolute black-strip-pilors "></div>
+            <div className=" bg-black z-10 w-full h-full absolute black-strip-2 "></div>
           </a>
 
           <a
@@ -221,11 +220,11 @@ function Pilors(props) {
             <div className="flex absolute mt-2 underline">
               CODE BASE
               <img
-                className="sm:h-6 sm:mt-3 h-5 mt-1"
-                src="src\assets\Text Icons\Arrow.svg"
+                className="sm:h-6 sm:mt-2 h-5 mt-1 ml-2"
+                src="assets\Social Icons\Github.svg"
                 alt=""
               />
-              <div className=" bg-black z-10 w-full h-full absolute black-strip-pilors "></div>
+              <div className=" bg-black z-10 w-full h-full absolute black-strip-2 "></div>
             </div>
           </a>
         </div>

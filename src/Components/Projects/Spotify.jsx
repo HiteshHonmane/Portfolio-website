@@ -154,24 +154,24 @@ function Spotify(props) {
               </span>
               <img
                 className="sm:h-7 sm:m-1 h-3 mx-1 my-[5px]"
-                src="src\assets\Text Icons\Dot.svg"
+                src="assets\Text Icons\Dot.svg"
                 alt=""
               />
             </div>
 
             <img
               className="sm:w-9 w-5"
-              src="src\assets\Skills Icons\Js.svg"
+              src="\Skills Icons\Js.svg"
               alt=""
             />
             <img
               className="sm:w-9 w-5"
-              src="src\assets\Skills Icons\Css.svg"
+              src="\Skills Icons\Css.svg"
               alt=""
             />
             <img
               className="sm:w-9 w-5"
-              src="src\assets\Skills Icons\Html.svg"
+              src="\Skills Icons\Html.svg"
               alt=""
             />
             <div className=" bg-black z-10 absolute w-full h-full black-strip-2 "></div>
@@ -184,13 +184,13 @@ function Spotify(props) {
         >
           <a
             href={props.LiveWebLink}
-            className="sm:flex w-[20%]  relative "
+            className="sm:flex w-[30%]  relative "
             target="_blank"
           >
             <div>LIVE APP</div>
             <img
-              className="sm:h-6 sm:mt-3 h-5 mt-1"
-              src="src\assets\Text Icons\Arrow.svg"
+              className="sm:h-4 sm:mt-3 h-5 mt-1 ml-2"
+              src="public\Skills Icons\Vercel.svg"
               alt=""
             />
             <div className=" bg-black z-10 w-full h-full absolute black-strip-2 "></div>
@@ -204,8 +204,8 @@ function Spotify(props) {
             <div className="flex absolute mt-2 underline">
               CODE BASE
               <img
-                className="sm:h-6 sm:mt-3 h-5 mt-1"
-                src="src\assets\Text Icons\Arrow.svg"
+                className="sm:h-6 sm:mt-2 h-5 mt-1 ml-2"
+                src="assets\Social Icons\Github.svg"
                 alt=""
               />
               <div className=" bg-black z-10 w-full h-full absolute black-strip-2 "></div>
