@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import './App.css'
-import { ThemeProvider } from './contexts/Theme.js'
+import { ThemeProvider } from '/src/Contexts/Theme.js'
 import ThemeBtn from './components/ThemeBtn'
 import Hero from './Components/Hero'
 import About from './Components/About'
