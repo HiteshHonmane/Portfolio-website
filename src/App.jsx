@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import './App.css'
-import { ThemeProvider } from './Contexts/ModeThem'
-
+import { ThemeProvider } from './context/ModeThem.jsx'
 import Lenis from '@studio-freight/lenis'
 import Index from './Index'
 import ThemeBtn from './Components/ModeThemeBtn'
