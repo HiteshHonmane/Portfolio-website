@@ -41,7 +41,7 @@ function Skills(props) {
         <div className="flex gap-3 text-lg sm:text-xl  font-Avenir ">
           <img
             className="sm:w-9 w-11"
-            src="src\assets\Skills Icons\Css.svg"
+            src="Skills Icons\Css.svg"
             alt=""
           />{" "}
           CSS
@@ -50,7 +50,7 @@ function Skills(props) {
         <div className="flex gap-3 text-lg sm:text-xl  font-Avenir">
           <img
             className="sm:w-9 w-11"
-            src="src\assets\Skills Icons\Js.svg"
+            src="Skills Icons\Js.svg"
             alt=""
           />{" "}
           JavaScript
@@ -58,7 +58,7 @@ function Skills(props) {
         <div className="flex gap-3 text-lg sm:text-xl  font-Avenir">
           <img
             className="sm:w-9 w-11"
-            src="src\assets\Skills Icons\React.svg"
+            src="Skills Icons\React.svg"
             alt=""
           />{" "}
           React
@@ -66,7 +66,7 @@ function Skills(props) {
         <div className="flex gap-3 text-lg sm:text-xl  font-Avenir">
           <img
             className="sm:w-9 w-11 text-lg sm:text-xl  font-Avenir  "
-            src="src\assets\Skills Icons\Tailwind.svg"
+            src="Skills Icons\Tailwind.svg"
             alt=""
           />{" "}
           Tailwind
@@ -75,7 +75,7 @@ function Skills(props) {
           id="Technologies-skills"
           className=" md:hidden flex flex-wrap  sm:w-[50vh] gap-3  text-lg sm:text-xl  font-Avenir z-10 "
         >
-          <img className="w-9" src="src\assets\Skills Icons\Figma.svg" alt="" />{" "}
+          <img className="w-9" src="\Skills Icons\Figma.svg" alt="" />{" "}
           Figma
         </div>
       </div>
@@ -86,12 +86,12 @@ function Skills(props) {
         className="sm:flex hidden md:block flex-wrap  sm:w-[50vh]  font-AvenirRoman text-xl z-10"
       >
         <div className="flex">
-          <img className="w-9" src="src\assets\Skills Icons\Figma.svg" alt="" />{" "}
+          <img className="w-9" src="Skills Icons\Figma.svg" alt="" />{" "}
           Figma
         </div>
 
         <div className="flex">
-          <img className="w-9" src="src\assets\Skills Icons\Git.svg" alt="" />{" "}
+          <img className="w-9" src="Skills Icons\Git.svg" alt="" />{" "}
           Git
         </div>
       </div>

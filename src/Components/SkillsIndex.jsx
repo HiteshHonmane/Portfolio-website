@@ -5,17 +5,17 @@ function SkillsIndex() {
 
     const skill1 = {
         name: "HTML",
-        logo: "src/assets/Skills Icons/Html.svg",
+        logo: "/Skills Icons/Html.svg",
       };
       
       const skill2 = {
         name: "CSS",
-        logo: "src/assets/Skills Icons/Css.svg",
+        logo: "/Skills Icons/Css.svg",
       };
       
       const skill3 = {
         name: "JavaScript",
-        logo: "src/assets/Skills Icons/Js.svg",
+        logo: "/Skills Icons/Js.svg",
       };
       
       const skill4 = {

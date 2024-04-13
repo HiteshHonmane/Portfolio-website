@@ -13,14 +13,15 @@ function About() {
       scrollTrigger: {
         trigger: "#about-container",
         start: "top center", 
-        end: "bottom bottom", 
+        end: "bottom center", 
         scrub: true,
-        markers: true
+        
       }
     })
     .to('#about', {
-      x: 300,
-      duration:5
+      x: 200,
+      duration:5,
+      ease: "power2.inOut"
     });
   });
 
