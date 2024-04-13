@@ -14,7 +14,7 @@ import Pilors from './Components/Projects/Pilors'
 function Index() {
   const projectObjBlog={
     name:"Blog Website",
-    index:"01",
+    index:"02",
     Highlight1:"Auth Services",
     Highlight2:"Write Blog & Post it ",
     detailText:"",
@@ -40,7 +40,7 @@ function Index() {
 
   const projectObjSpotify={
     name:"Spotify Clone",
-    index:"02",
+    index:"03",
     Highlight1:"API Handling",
     Highlight2:"Search Songs",
     detailText:"",
@@ -52,7 +52,6 @@ function Index() {
     LiveWebLink:"https://spotify-clone-khaki-nine.vercel.app/",
     CodeBaseLink:"https://github.com/HiteshHonmane/Spotify-Clone",
     ReactSvg: ""
-
   }
 
 

@@ -31,7 +31,7 @@ function Pilors(props) {
       start: "top top", // Trigger pinning when the top of #main-project-section reaches the top of the viewport
       end: "bottom bottom", // Unpin when the bottom of #main-project-section reaches the bottom of the viewport
       pin: pinSide,
-      markers: true,
+      // markers: true,
       toggleActions: "play none none reverse",
     });
 
@@ -41,6 +41,7 @@ function Pilors(props) {
           trigger: target,
           start: " top top ",
           end: "bottom bottom",
+          
           onEnter: () => {
             // Reset animation when entering the trigger area
             tl.restart();}
@@ -59,7 +60,12 @@ function Pilors(props) {
         duration: 0.5,
         ease: "ease In Out",
         toggleActions: "play none none reverse",
-      })  ;
+      })
+
+      .to(leftSide,{
+        delay:'',
+      
+      })
 
     return () => {
       ScrollTrigger.getAll().forEach((trigger) => {
@@ -209,7 +215,7 @@ function Pilors(props) {
               src="public\Skills Icons\Vercel.svg"
               alt=""
             />
-            <div className=" bg-black z-10 w-full h-full absolute black-strip-2 "></div>
+            <div className=" bg-black z-10 w-full h-full absolute black-strip-pilors "></div>
           </a>
 
           <a
@@ -224,7 +230,7 @@ function Pilors(props) {
                 src="assets\Social Icons\Github.svg"
                 alt=""
               />
-              <div className=" bg-black z-10 w-full h-full absolute black-strip-2 "></div>
+              <div className=" bg-black z-10 w-full h-full absolute black-strip-pilors "></div>
             </div>
           </a>
         </div>

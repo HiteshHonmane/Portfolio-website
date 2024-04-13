@@ -31,7 +31,7 @@ function Projects(props) {
       start: "top top", // Trigger pinning when the top of #main-project-section reaches the top of the viewport
       end: "bottom bottom", // Unpin when the bottom of #main-project-section reaches the bottom of the viewport
       pin: pinSide,
-      markers: true,
+      // markers: true,
       scrub: true,
       toggleActions: "play none none reverse",
     });
@@ -190,7 +190,7 @@ function Projects(props) {
               src="public\Skills Icons\Vercel.svg"
               alt=""
             />
-            <div className=" bg-black z-10 w-full h-full absolute black-strip-2 "></div>
+            <div className=" bg-black z-10 w-full h-full absolute black-strip "></div>
           </a>
 
           <a
@@ -205,7 +205,7 @@ function Projects(props) {
                 src="assets\Social Icons\Github.svg"
                 alt=""
               />
-              <div className=" bg-black z-10 w-full h-full absolute black-strip-2 "></div>
+              <div className=" bg-black z-10 w-full h-full absolute black-strip "></div>
             </div>
           </a>
         </div>
