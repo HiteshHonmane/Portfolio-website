@@ -60,9 +60,9 @@ function Index() {
     <>
     <Hero/>
     <About/>
-    <Pilors {...projectObjPilors} />
+    {/* <Pilors {...projectObjPilors} /> */}
     <Blog {...projectObjBlog}/>
-    <Spotify {...projectObjSpotify} />
+    {/* <Spotify {...projectObjSpotify} /> */}
     <SkillsIndex/>
     <Contact/>
     

@@ -131,11 +131,11 @@ function Pilors(props) {
         <div className=" flex relative w-full h-[5%] ">
           <div
             id="top"
-            className="  text-[16px] sm:text-lg ml-5 sm:px-20 pt-14 font-bold text-[#333333] dark:text-gray-400 "
+            className=" text-[16px] sm:text-lg ml-5 sm:ml-0 sm:px-20 pt-14 sm:pt-0 font-bold text-[#333333] dark:text-gray-400 "
           >
             {props.index}
           </div>
-          <div className="absolute inset-0 h-[70%] mt-14 w-[20%] ml-12 z-10 bg-black black-strip-pilors "></div>
+          <div className="absolute inset-0 h-[70%] mt-14 sm:mt-0 sm:pt-0  w-[20%] ml-12 z-10 bg-black black-strip-pilors "></div>
         </div>
 
         <div
@@ -143,7 +143,7 @@ function Pilors(props) {
           className="relative top-[-186px] flex flex-col items-start px-5 sm:px-24 gap-px"
         >
           <div className="relative w-[100%]">
-            <h2 className=" h-[70%] font-Avenir text-4xl sm:text-4xl font-bold text-[#333333] pb-8 dark:text-gray-950 relative ">
+            <h2 className=" h-[70%] font-Avenir text-4xl sm:text-4xl xl:text-3xl  font-bold text-[#333333] pb-8 dark:text-gray-950 relative ">
               {props.name}
             </h2>
             <div className="absolute inset-0 h-[70%]  z-10 bg-black black-strip-pilors"></div>
@@ -206,7 +206,7 @@ function Pilors(props) {
         >
           <a
             href={props.LiveWebLink}
-            className="sm:flex w-[30%]  relative "
+            className="sm:flex w-[40%]  relative "
             target="_blank"
           >
             <div>LIVE APP</div>

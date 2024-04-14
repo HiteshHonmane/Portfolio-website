@@ -17,7 +17,7 @@ function Hero() {
         stagger:1
       });
       gsap.to('#Frontend',{
-        y: -60,
+        y: -40,
         duration:.5,
         opacity:1,
         stagger:1,
@@ -31,11 +31,11 @@ function Hero() {
   return (
     <div ref={container} className="">
       <Navbar />
-      <div className="main-section sm:min-h-dvh min-h-[50vh] flex justify-center items-center border-none outline-none ">
+      <div className="main-section sm:min-h-dvh min-h-[100vh] flex justify-center items-center border-none outline-none ">
         <div className="Name-page">
           <h1
             id="Hitesh"
-            className=" heading-section sm:m-auto ml-3 font-Valencia text-6xl px-5 dark:text-gray-400 opacity-0"
+            className=" heading-section sm:m-auto lg:mx-14 ml-3 font-Valencia text-6xl px-5 dark:text-gray-400 opacity-0"
           >
             Hitesh Honmane
           </h1>

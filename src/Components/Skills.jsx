@@ -27,14 +27,12 @@ function Skills(props) {
   }, []);
 
   return (
-    <div className=" overflow-x-hidden flex justify-around items-center h-[100vh] ">
+    <div className=" overflow-x-hidden flex justify-around lg:justify-around xl:justify-around items-center h-[100vh] lg:w-[100vw] ">
       <div
         id="technical-skills"
         className="flex flex-col w-[200px] ml-10 gap-8  sm:gap-2 text-start font-AvenirRoman dark:text-gray-950 sm:text-xl z-10"
       >
-        <div className=" sm:hidden   flex text-2xl  mb-3 font-bold font-Avenir ">
-          SKILLS
-        </div>
+        
         <div className="flex gap-3 text-lg sm:text-xl  font-Avenir  ">
           <img className="sm:w-9 w-11" src={props.logo} alt="" /> {props.name}
         </div>
@@ -97,7 +95,7 @@ function Skills(props) {
       </div>
       <div
         ref={skillsRef}
-        className="hidden md:block sm:@apply transition-transform duration-[0.5s] ease-[ease-out] delay-[0s] overflow-hidden sm:flex sm:absolute sm:text-[200px] font-semibold sm:text-gray-300 dark:text-[rgb(57,56,56)] opacity-50 text-2xl  "
+        className=" sm:@apply transition-transform duration-[0.5s] ease-[ease-out] delay-[0s] overflow-hidden sm:flex sm:absolute sm:text-[200px] font-semibold sm:text-gray-300 dark:text-[rgb(57,56,56)] opacity-50 text-6xl text-[rgb(222,222,222)]  w-full xl:w-[35%]  "
       >
         SKILLS
       </div>
