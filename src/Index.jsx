@@ -31,7 +31,7 @@ function Index() {
     Highlight1:"Interactive",
     Highlight2:"Best Animation",
     detailText:"",
-    imageSrc1: "public/Pilors/pilors mac.png",
+    imageSrc1: "Pilors/pilors mac.png",
     imageSrc2:" ",
     imageSrc3: "",
     LiveWebLink:"",
