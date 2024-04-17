@@ -149,7 +149,7 @@ function Projects(props) {
           </div>
 
           <div className="flex  w-[100%]  relative z-0   ">
-            <h4 className="font-AvenirMedium  text-[#333333] sm:text-px text-[18px] dark:text-gray-400 ">
+            <h4 className="font-AvenirMedium  text-[#333333] sm:text-px text-[20px] dark:text-gray-400 ">
               {props.Highlight1}
             </h4>
             <img
@@ -157,7 +157,7 @@ function Projects(props) {
               src="src\assets\Text Icons\Dot.svg"
               alt=""
             />
-            <h4 className="font-AvenirMedium text-[#333333] dark:text-gray-400 sm:text-px text-[18px]">
+            <h4 className="font-AvenirMedium text-[#333333] dark:text-gray-400 sm:text-px text-[20px]">
               {props.Highlight2}
             </h4>
             <div className="flex absolute z-10 bg-black w-[100%] h-[100%] black-strip "></div>{" "}
@@ -170,7 +170,7 @@ function Projects(props) {
 
           <div className=" relative flex sm:gap-3 gap-2 mt-3 w-[50%] h-[20%]">
             <div className="flex ">
-              <span className="text-[16px] font-AvenirMedium dark:text-gray-400 text-[#333333] sm:text-lg sm:font-medium font-semibold">
+              <span className="text-[18px] font-AvenirMedium dark:text-gray-400 text-[#333333] sm:text-lg sm:font-medium font-semibold">
                 Tech
               </span>
               <img
@@ -180,14 +180,14 @@ function Projects(props) {
               />
             </div>
 
-            <img className="sm:w-9 w-5" src="\Skills Icons\React.svg" alt="" />
+            <img className="sm:w-9 w-6" src="\Skills Icons\React.svg" alt="" />
             <img
-              className="sm:w-9 w-5"
+              className="sm:w-9 w-6"
               src="\Skills Icons\Tailwind.svg"
               alt=""
             />
             <img
-              className="sm:w-9 w-5 "
+              className="sm:w-9 w-6 "
               src="\Skills Icons\Appwrite.svg"
               alt=""
             />

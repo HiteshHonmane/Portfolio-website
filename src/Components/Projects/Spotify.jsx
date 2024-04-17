@@ -151,7 +151,7 @@ function Spotify(props) {
         </div>
 
         <div className="flex  w-[100%]  relative z-0   ">
-          <h4 className="font-AvenirMedium  text-[#333333] sm:text-px text-[18px] dark:text-gray-400 ">
+          <h4 className="font-AvenirMedium  text-[#333333] sm:text-px text-[20px] dark:text-gray-400 ">
             {props.Highlight1}
           </h4>
           <img
@@ -159,7 +159,7 @@ function Spotify(props) {
             src="src\assets\Text Icons\Dot.svg"
             alt=""
           />
-          <h4 className="font-AvenirMedium text-[#333333] dark:text-gray-400 sm:text-px text-[18px]">
+          <h4 className="font-AvenirMedium text-[#333333] dark:text-gray-400 sm:text-px text-[20px]">
             {props.Highlight2}
           </h4>
           <div className="flex absolute z-10 bg-black w-[100%] h-[100%] black-strip-spotify "></div>{" "}
@@ -172,8 +172,8 @@ function Spotify(props) {
 
         <div className=" relative flex sm:gap-3 gap-2 mt-3 w-[50%] h-[20%]">
           <div className="flex ">
-            <span className="text-[16px] font-AvenirMedium dark:text-gray-400 text-[#333333] sm:text-lg sm:font-medium font-semibold">
-              Tech
+            <span className="text-[18px] font-AvenirMedium dark:text-gray-400 text-[#333333] sm:text-lg sm:font-medium font-semibold">
+              Tech 
             </span>
             <img
               className="sm:h-7 sm:m-1 h-3 mx-1 my-[5px]"
@@ -182,14 +182,14 @@ function Spotify(props) {
             />
           </div>
 
-          <img className="sm:w-9 w-5" src="\Skills Icons\Js.svg" alt="" />
+          <img className="sm:w-9 w-6" src="\Skills Icons\Js.svg" alt="" />
           <img
-            className="sm:w-9 w-5"
+            className="sm:w-9 w-6"
             src="\Skills Icons\Html.svg"
             alt=""
           />
           <img
-            className="sm:w-9 w-5 "
+            className="sm:w-9 w-6 "
             src="\Skills Icons\Css.svg"
             alt=""
           />
@@ -203,12 +203,12 @@ function Spotify(props) {
       >
         <a
           href={props.LiveWebLink}
-          className="sm:flex flex  w-[50%]   relative "
+          className="sm:flex flex  z-30  w-[50%] relative "
           target="_blank"
         >
-          <div>LIVE APP</div>
+          <div className=" flex ">LIVE APP</div>
           <img
-            className="sm:h-4 sm:mt-3 h-4 mt-1 ml-2"
+            className="sm:h-4 sm:mt-3 z-30 h-4 mt-1 ml-2"
             src="public\Skills Icons\Vercel.svg"
             alt=""
           />
@@ -218,9 +218,9 @@ function Spotify(props) {
         <a
           href={props.CodeBaseLink}
           target=""
-          className="sm:flex w-[40%]  relative  "
+          className="sm:flex z-10 w-[40%]  relative  "
         >
-          <div className="flex absolute mt-2 underline">
+          <div className="flex  absolute mt-2 underline">
             CODE BASE
             <img
               className="sm:h-6 sm:mt-2 h-5 mt-1 ml-2"
@@ -238,14 +238,14 @@ function Spotify(props) {
       id="right-side"
       className=" sm:h-[100vh] sm:w-[50vw] w-[100vw] h-[100vh] lg:w-[100vw]  relative  flex justify-center top-[-80vh] 2xl:w-[50vw] 2xl:h-[250vh] 2xl:top-[100vh]   lg:top-[50vh] gap-[5vh] 2xl:gap-3 lg:gap-[3vh] flex-wrap xl:w-[50vw] "
     >
-      {images.map(({ src, y, width, mobileWidth, ipadWidth }) => (
+      {images.map(({ src, y, width, mobileWidth, ipadWidth  }) => (
         <motion.div
           key={Id}
           style={{ y }}
-          className="flex flex-wrap overflow-x-hidden justify-end items-end mr-4 "
+          className="flex relative  flex-wrap overflow-x-hidden justify-end items-end mr-4 "
         >
           <motion.img
-            className="image flex items-end flex-wrap"
+            className="image flex items-end flex-wrap z-10 "
             src={src}
             style={{
               width: window.innerWidth <= 768 ? mobileWidth : width
