@@ -186,7 +186,7 @@ function Pilors(props) {
             />
             <img
               className="sm:w-9 w-5 "
-              src="\Skills Icons\Appwrite.svg"
+              src=""
               alt=""
             />
             <div className=" bg-black z-10 absolute w-full h-full black-strip-pilors "></div>

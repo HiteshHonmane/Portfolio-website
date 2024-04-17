@@ -14,7 +14,7 @@ import Pilors from './Components/Projects/Pilors'
 function Index() {
   const projectObjBlog={
     name:"Blog Website",
-    index:"03",
+    index:"01",
     Highlight1:"Auth Services",
     Highlight2:"Write Blog & Post it ",
     detailText:"",
@@ -29,7 +29,7 @@ function Index() {
     name:"Architect & Interior",
     index:"03",
     Highlight1:"Interactive",
-    Highlight2:"Best Animation",
+    Highlight2:"GSAP Animations",
     detailText:"",
     imageSrc1: "Pilors/pilors mac.png",
     imageSrc2:" ",

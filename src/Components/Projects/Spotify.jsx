@@ -182,15 +182,15 @@ function Spotify(props) {
             />
           </div>
 
-          <img className="sm:w-9 w-5" src="\Skills Icons\React.svg" alt="" />
+          <img className="sm:w-9 w-5" src="\Skills Icons\Js.svg" alt="" />
           <img
             className="sm:w-9 w-5"
-            src="\Skills Icons\Tailwind.svg"
+            src="\Skills Icons\Html.svg"
             alt=""
           />
           <img
             className="sm:w-9 w-5 "
-            src="\Skills Icons\Appwrite.svg"
+            src="\Skills Icons\Css.svg"
             alt=""
           />
           <div className=" bg-black z-10 absolute w-full h-full black-strip-spotify "></div>
