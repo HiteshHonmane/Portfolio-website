@@ -43,7 +43,7 @@ requestAnimationFrame(raf)
     <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>
       <div className="w-full flex justify-end pr-8 pt- ">
         <ThemeBtn />
-        <img className=' w-6 mt-1' src="src\Icons\darkmode.svg " alt="" />
+        <img className=' w-6 mt-1' src="Skills Icons\darkmode.svg " alt="" />
       </div>
       <Index/>
       
