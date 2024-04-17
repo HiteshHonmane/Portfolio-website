@@ -1,4 +1,3 @@
-
 import React from "react";
 import { useEffect } from "react";
 
@@ -20,9 +19,9 @@ function Pilors(props) {
   useEffect(() => {
     const pinSide = document.querySelector("#left-side-pilors");
     const target = document.querySelector("#main-project-pilors-section");
-    
+
     const blackStrip = document.querySelectorAll(".black-strip-pilors");
-    const leftSide=  document.querySelector("#left-side-pilors")
+    const leftSide = document.querySelector("#left-side-pilors");
 
     gsap.registerPlugin(ScrollTrigger);
 
@@ -35,26 +34,26 @@ function Pilors(props) {
       toggleActions: "play none none reverse",
     });
 
-    const tl = gsap
-      .timeline({
-        scrollTrigger: {
-          trigger: target,
-          start: " top top ",
-          end: "bottom bottom",
-          
-          onEnter: () => {
-            // Reset animation when entering the trigger area
-            tl.restart();}
-        },
-        onEnterBack: () => {
-          // Restart the animation when scrolling backward
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: target,
+        start: " top top ",
+        end: "bottom bottom",
+
+        onEnter: () => {
+          // Reset animation when entering the trigger area
           tl.restart();
         },
-      })
-      tl.to(leftSide,{
-        opacity:1,
-        delay:0
-      })
+      },
+      onEnterBack: () => {
+        // Restart the animation when scrolling backward
+        tl.restart();
+      },
+    });
+    tl.to(leftSide, {
+      opacity: 1,
+      delay: 0,
+    })
       .to(blackStrip, {
         width: 0,
         duration: 0.5,
@@ -62,10 +61,9 @@ function Pilors(props) {
         toggleActions: "play none none reverse",
       })
 
-      .to(leftSide,{
-        delay:'',
-      
-      })
+      .to(leftSide, {
+        delay: "",
+      });
 
     return () => {
       ScrollTrigger.getAll().forEach((trigger) => {
@@ -94,7 +92,6 @@ function Pilors(props) {
     {
       src: props.imageSrc2,
       y: lg,
-      
     },
     {
       src: props.imageSrc3,
@@ -122,35 +119,35 @@ function Pilors(props) {
   return (
     <div
       id="main-project-pilors-section"
-      className="sm:flex sm:flex-row flex-row sm:h-[300vh] sm:w-[100vw] h-[200vh] relative "
+      className="sm:flex sm:flex-row lg:flex-col xl:flex-row 2xl:flex-row flex-col sm:h-[300vh] sm:w-[100vw] h-[200vh] xl:h-[300vh] 2xl:h-[300vh] relative "
     >
       <div
         id="left-side-pilors"
-        className="flex flex-col justify-between relative h-[100vh]  sm:w-[50vw] opacity-0   "
+        className="flex flex-col   justify-between relative w-[100vw] h-[100vh]  sm:w-[50vw] lg:w-[100vw] opacity-0  xl:h-[100vh]  xl:w-[50vw]  2xl:h-[100vh]  2xl:w-[50vw] "
       >
-        <div className=" flex relative w-full h-[5%] ">
+        <div className=" flex relative w-full h-[5%] lg:mt-24 ">
           <div
             id="top"
-            className=" text-[16px] sm:text-lg ml-5 sm:ml-0 sm:px-20 pt-14 sm:pt-0 font-bold text-[#333333] dark:text-gray-400 "
+            className="text-[16px] sm:text-lg ml-5 sm:ml-0 sm:px-20 pt-14 sm:pt-0 font-bold text-[#333333] dark:text-gray-400 lg:mb-2  "
           >
             {props.index}
           </div>
-          <div className="absolute inset-0 h-[70%] mt-14 sm:mt-0 sm:pt-0  w-[20%] ml-12 z-10 bg-black black-strip-pilors "></div>
+          <div className="absolute inset-0 h-[80%] mt-14 sm:mt-0 sm:pt-0  w-[20%] xl:ml-12 z-10 bg-black black-strip-pilors ml-2 lg:mb-2 "></div>
         </div>
 
         <div
           id="middle"
-          className="relative top-[-186px] flex flex-col items-start px-5 sm:px-24 gap-px"
+          className="relative sm:mb-0 mb-[50vh] sm:top-[-186px] flex flex-col items-start  px-5 sm:px-24 lg:mb-[40vh] 2xl:mb-0 xl:top-[100px] xl:w-full xl:pr-0 xl:pl-10% 2xl:top-[-186px]  "
         >
           <div className="relative w-[100%]">
-            <h2 className=" h-[70%] font-Avenir text-4xl sm:text-4xl xl:text-3xl  font-bold text-[#333333] pb-8 dark:text-gray-950 relative ">
+            <h2 className=" h-[70%] font-Avenir text-[50px] sm:text-3xl  font-bold text-[#333333]   dark:text-gray-950 relative lg:text-5xl xl:text-4xl 2xl:text-4xl ">
               {props.name}
             </h2>
-            <div className="absolute inset-0 h-[70%]  z-10 bg-black black-strip-pilors"></div>
+            <div className="absolute mt-2 inset-0 h-[83%]  z-10 bg-black black-strip-pilors"></div>
           </div>
 
-          <div className="flex  w-[100%]  relative z-0 ">
-            <h4 className="font-AvenirMedium  text-[#333333] sm:text-xl text-[18px] dark:text-gray-400 ">
+          <div className="flex  w-[100%]  relative z-0   ">
+            <h4 className="font-AvenirMedium  text-[#333333] sm:text-px text-[18px] dark:text-gray-400 ">
               {props.Highlight1}
             </h4>
             <img
@@ -158,7 +155,7 @@ function Pilors(props) {
               src="src\assets\Text Icons\Dot.svg"
               alt=""
             />
-            <h4 className="font-AvenirMedium text-[#333333] dark:text-gray-400 sm:text-xl text-[18px]">
+            <h4 className="font-AvenirMedium text-[#333333] dark:text-gray-400 sm:text-px text-[18px]">
               {props.Highlight2}
             </h4>
             <div className="flex absolute z-10 bg-black w-[100%] h-[100%] black-strip-pilors "></div>{" "}
@@ -176,24 +173,20 @@ function Pilors(props) {
               </span>
               <img
                 className="sm:h-7 sm:m-1 h-3 mx-1 my-[5px]"
-                src="src\assets\Text Icons\Dot.svg"
+                src="assets\Text Icons\Dot.svg"
                 alt=""
               />
             </div>
 
+            <img className="sm:w-9 w-5" src="\Skills Icons\React.svg" alt="" />
             <img
               className="sm:w-9 w-5"
-              src="Skills Icons\React.svg"
+              src="\Skills Icons\Tailwind.svg"
               alt=""
             />
             <img
-              className="sm:w-9 w-5"
-              src="Skills Icons\Tailwind.svg"
-              alt=""
-            />
-            <img
-              className="sm:w-9 w-5"
-              src="\Skills Icons\Figma.svg"
+              className="sm:w-9 w-5 "
+              src="\Skills Icons\Appwrite.svg"
               alt=""
             />
             <div className=" bg-black z-10 absolute w-full h-full black-strip-pilors "></div>
@@ -206,12 +199,12 @@ function Pilors(props) {
         >
           <a
             href={props.LiveWebLink}
-            className="sm:flex w-[40%]  relative "
+            className="sm:flex flex  w-[50%]   relative "
             target="_blank"
           >
             <div>LIVE APP</div>
             <img
-              className="sm:h-4 sm:mt-3 h-5 mt-1 ml-2"
+              className="sm:h-4 sm:mt-3 h-4 mt-1 ml-2"
               src="public\Skills Icons\Vercel.svg"
               alt=""
             />
@@ -239,17 +232,22 @@ function Pilors(props) {
       <motion.div
         ref={container}
         id="right-side"
-        className=" sm:h-[100vh] sm:w-[50vw] w-[100vh] h-[300vh]  relative  flex justify-center top-[150vh] gap-[5vh] flex-wrap "
+        className=" sm:h-[100vh] sm:w-[50vw] w-[100vw] h-[100vh] lg:w-[100vw]  relative  flex justify-center top-[-80vh] 2xl:w-[50vw] 2xl:h-[250vh] 2xl:top-[100vh]   lg:top-[50vh] gap-[5vh] 2xl:gap-3 lg:gap-[3vh] flex-wrap xl:w-[50vw] "
       >
-        {images.map(({ src, y, width: width }) => (
+        
+        {images.map(({ src, y, width, mobileWidth, ipadWidth }) => (
           <motion.div
             key={Id}
             style={{ y }}
-            className="flex flex-wrap overflow-x-hidden  justify-end items-end mr-4 "
+            className="flex flex-wrap overflow-x-hidden justify-end items-end mr-4 "
           >
+            
             <motion.img
-              className=" w-[15vw]  flex items-end flex-wrap "
+              className="image flex items-end flex-wrap"
               src={src}
+              style={{
+                width: window.innerWidth <= 768 ? mobileWidth : width,
+              }}
               alt=""
             />
           </motion.div>

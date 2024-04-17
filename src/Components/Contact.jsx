@@ -18,7 +18,7 @@ function Contact() {
         start: "top center", 
         end: "bottom center", 
         scrub: true,
-        markers:true
+        // markers:true
         
       }
     })
@@ -96,7 +96,7 @@ function Contact() {
             ref={contactRef}
             id="contact"
             
-            className=" absolute  @apply transition-transform duration-[0.5s] ease-[ease-out] delay-[0s] sm:flex sm:absolute mt-96 text-6xl lg:text-8xl xl:text-8xl  font-semibold text-gray-300 opacity-50 dark:text-[rgb(57,56,56)] lg:-translate-x-full -translate-x-[50%]  xl:-translate-x-[80%] lg:w-[60%] "
+            className=" absolute  @apply transition-transform duration-[0.5s] ease-[ease-out] delay-[0s] sm:flex sm:absolute mt-96 text-6xl lg:text-8xl xl:text-8xl  font-semibold text-gray-300 opacity-50 dark:text-[rgb(71,71,71)] lg:-translate-x-full -translate-x-[50%]  xl:-translate-x-[80%] lg:w-[60%] "
           >
             CONTACT
           </div>

@@ -95,7 +95,7 @@ function Skills(props) {
       </div>
       <div
         ref={skillsRef}
-        className=" sm:@apply transition-transform duration-[0.5s] ease-[ease-out] delay-[0s] overflow-hidden sm:flex sm:absolute sm:text-[200px] font-semibold sm:text-gray-300 dark:text-[rgb(57,56,56)] opacity-50 text-6xl text-[rgb(222,222,222)]  w-full xl:w-[35%]  "
+        className=" sm:@apply transition-transform duration-[0.5s] ease-[ease-out] delay-[0s] overflow-hidden sm:flex sm:absolute sm:text-[200px] font-semibold sm:text-gray-300 dark:text-[rgb(71,71,71)] opacity-50 text-6xl text-[rgb(222,222,222)]  w-full xl:w-[35%]  "
       >
         SKILLS
       </div>

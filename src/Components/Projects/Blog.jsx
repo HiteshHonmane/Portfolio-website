@@ -121,11 +121,11 @@ function Projects(props) {
   return (
     <div
       id="main-project-section"
-      className="sm:flex sm:flex-row lg:flex-col xl:flex-row flex-col sm:h-[300vh] sm:w-[100vw] h-[200vh] xl:h-[300vh] relative "
+      className="sm:flex sm:flex-row lg:flex-col xl:flex-row 2xl:flex-row flex-col sm:h-[300vh] sm:w-[100vw] h-[200vh] xl:h-[300vh] 2xl:h-[300vh] relative "
     >
       <div
         id="left-side"
-        className="flex flex-col   justify-between relative h-[100vh]  sm:w-[50vw] lg:w-[100vw] opacity-0  xl:h-[100vh] w-[100vw] xl:w-[50vw]  "
+        className="flex flex-col   justify-between relative w-[100vw] h-[100vh]  sm:w-[50vw] lg:w-[100vw] opacity-0  xl:h-[100vh]  xl:w-[50vw]  2xl:h-[100vh]  2xl:w-[50vw] "
       >
         <div className=" flex relative w-full h-[5%] lg:mt-24 ">
           <div
@@ -134,18 +134,18 @@ function Projects(props) {
           >
             {props.index}
           </div>
-          <div className="absolute inset-0 h-[70%] mt-14 sm:mt-0 sm:pt-0  w-[20%] xl:ml-12 z-10 bg-black black-strip ml-2 "></div>
+          <div className="absolute inset-0 h-[80%] mt-14 sm:mt-0 sm:pt-0  w-[20%] xl:ml-12 z-10 bg-black black-strip ml-2 "></div>
         </div>
 
         <div
           id="middle"
-          className="relative sm:mb-0 mb-[50vh] sm:top-[-186px] flex flex-col items-start  px-5 sm:px-24 lg:mb-[40vh] xl:mb-0 "
+          className="relative sm:mb-0 mb-[50vh] sm:top-[-186px] flex flex-col items-start  px-5 sm:px-24 lg:mb-[40vh] 2xl:mb-0 xl:top-[100px] xl:w-full xl:pr-0 xl:pl-10% 2xl:top-[-186px]  "
         >
           <div className="relative w-[100%]">
-            <h2 className=" h-[70%] font-Avenir text-[50px] sm:text-3xl  font-bold text-[#333333] pb-8  dark:text-gray-950 relative lg:text-5xl xl:text-4xl ">
+            <h2 className=" h-[70%] font-Avenir text-[50px] sm:text-3xl  font-bold text-[#333333]   dark:text-gray-950 relative lg:text-5xl xl:text-4xl 2xl:text-4xl ">
               {props.name}
             </h2>
-            <div className="absolute inset-0 h-[73%]  z-10 bg-black black-strip"></div>
+            <div className="absolute mt-2 inset-0 h-[83%]  z-10 bg-black black-strip"></div>
           </div>
 
           <div className="flex  w-[100%]  relative z-0   ">
@@ -234,7 +234,7 @@ function Projects(props) {
       <motion.div
         ref={container}
         id="right-side"
-        className=" sm:h-[100vh] sm:w-[50vw] w-[100vw] h-[100vh] lg:w-[100vw]  relative  flex justify-center top-[-80vh] xl:w-[50vw] xl:h-[250vh] xl:top-[100vh]   lg:top-[50vh] gap-[5vh] xl:gap-3 lg:gap-[3vh] flex-wrap "
+        className=" sm:h-[100vh] sm:w-[50vw] w-[100vw] h-[100vh] lg:w-[100vw]  relative  flex justify-center top-[-80vh] 2xl:w-[50vw] 2xl:h-[250vh] 2xl:top-[100vh]   lg:top-[50vh] gap-[5vh] 2xl:gap-3 lg:gap-[3vh] flex-wrap xl:w-[50vw] "
       >
         {images.map(({ src, y, width, mobileWidth, ipadWidth }) => (
           <motion.div
