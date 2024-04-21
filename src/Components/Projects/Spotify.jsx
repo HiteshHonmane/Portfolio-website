@@ -155,7 +155,7 @@ function Spotify(props) {
             {props.Highlight1}
           </h4>
           <img
-            className="sm:h-7 sm:m-3 m-2 h-3"
+            className="sm:h-7 lg:h-7 xl:h-7 2xl:h-7 sm:m-3 m-2 h-4 "
             src="src\assets\Text Icons\Dot.svg"
             alt=""
           />
@@ -176,7 +176,7 @@ function Spotify(props) {
               Tech 
             </span>
             <img
-              className="sm:h-7 sm:m-1 h-3 mx-1 my-[5px]"
+              className="sm:h-7 sm:m-1 h-4 mx-1 my-[5px] "
               src="assets\Text Icons\Dot.svg"
               alt=""
             />

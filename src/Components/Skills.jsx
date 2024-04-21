@@ -47,7 +47,7 @@ function Skills(props) {
 
         <div className="flex gap-3 text-lg sm:text-xl  font-Avenir">
           <img
-            className="sm:w-9 w-11"
+            className="sm:w-9 w-[38px] "
             src="Skills Icons\Js.svg"
             alt=""
           />{" "}
@@ -76,6 +76,14 @@ function Skills(props) {
           <img className="w-9" src="\Skills Icons\Figma.svg" alt="" />{" "}
           Figma
         </div>
+        <div
+          id="Technologies-skills"
+          className=" md:hidden flex flex-wrap  sm:w-[50vh] gap-3  text-lg sm:text-xl  font-Avenir z-10 "
+        >
+          <img className="w-9" src="\Skills Icons\Git.svg" alt="" />{" "}
+          Git
+        </div>
+        
       </div>
       <div className="flex flex-col gap-10"></div>
 

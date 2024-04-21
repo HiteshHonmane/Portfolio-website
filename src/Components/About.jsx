@@ -14,7 +14,7 @@ function About() {
         trigger: "#about-container",
         start: "top center", 
         end: "bottom center", 
-        scrub: true,
+        scrub: 1,
         
       }
     })
