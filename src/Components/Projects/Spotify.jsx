@@ -209,7 +209,7 @@ function Spotify(props) {
           <div className=" flex ">LIVE APP</div>
           <img
             className="sm:h-4 sm:mt-3 z-30 h-4 mt-1 ml-2"
-            src="public\Skills Icons\Vercel.svg"
+            src="Skills Icons\Vercel.svg"
             alt=""
           />
           <div className=" bg-black z-10 w-full h-full absolute black-strip-spotify "></div>
