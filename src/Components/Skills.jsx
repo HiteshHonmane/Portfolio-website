@@ -55,11 +55,27 @@ function Skills(props) {
         </div>
         <div className="flex gap-3 text-lg sm:text-xl  font-Avenir">
           <img
+            className="sm:w-9 w-[38px] "
+            src="Skills Icons\TS.svg"
+            alt=""
+          />
+          TypeScript
+        </div>
+        <div className="flex gap-3 text-lg sm:text-xl  font-Avenir">
+          <img
             className="sm:w-9 w-11"
             src="Skills Icons\React.svg"
             alt=""
           />{" "}
           React
+        </div>
+        <div className="flex gap-3 text-lg sm:text-xl  font-Avenir">
+          <img
+            className="sm:w-9 w-11"
+            src="Skills Icons\Redux.svg"
+            alt=""
+          />{" "}
+          Redux
         </div>
         <div className="flex gap-3 text-lg sm:text-xl  font-Avenir">
           <img

@@ -152,7 +152,7 @@ function Pilors(props) {
             </h4>
             <img
               className="sm:h-7 lg:h-7 xl:h-7 2xl:h-7 sm:m-3 m-2 h-4  "
-              src="src\assets\Text Icons\Dot.svg"
+              src="../../../public/assets/Text Icons/Dot.svg"
               alt=""
             />
             <h4 className="font-AvenirMedium text-[#333333] dark:text-gray-400 sm:text-px text-[20px]">
