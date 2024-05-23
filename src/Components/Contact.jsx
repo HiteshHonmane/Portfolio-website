@@ -105,7 +105,7 @@ function Contact() {
       <footer className="w-full text-center py-4 flex gap-3 justify-center items-center">
         <p className="text-gray-500">Developed by Hitesh Honmane </p>
         <a href="https://github.com/HiteshHonmane">
-        <img width={18} src='assets/Social Icons/Github.svg' alt="" />
+        <img width={18} src='Github.svg' alt="" />
         </a>
       </footer>
     </>
