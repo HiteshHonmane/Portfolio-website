@@ -5,7 +5,7 @@ import Skills from './Components/Skills'
 import Contact from './Components/Contact'
 import SkillsIndex from './Components/SkillsIndex'
 import Blog from './Components/Projects/Blog'
-import Spotify from './Components/Projects/Spotify'
+import Spotify from './Components/Projects/TuneTreak'
 import Pilors from './Components/Projects/Pilors'
 
 // import ParallaxEffect from './Components/Parallex'
@@ -39,9 +39,9 @@ function Index() {
   }
 
   const projectObjSpotify={
-    name:"Spotify Clone",
+    name:"TuneTreak(Music)",
     index:"02",
-    Highlight1:"API Handling",
+    Highlight1:"REST API Handling",
     Highlight2:"Search Songs",
     detailText:"",
     imageSrc1: "/Spotify Images/spotify playlist.png",
@@ -49,8 +49,8 @@ function Index() {
     imageSrc3: "/Spotify Images/spotify ipad mini.png",
     imageSrc4: "/Spotify Images/spotify  macbook.png",
     imageSrc5: "",
-    LiveWebLink:"https://spotify-clone-khaki-nine.vercel.app/",
-    CodeBaseLink:"https://github.com/HiteshHonmane/Spotify-Clone",
+    LiveWebLink:"https://tune-treak-91l5dhv6t-hiteshs-projects-b3999c5b.vercel.app/",
+    CodeBaseLink:"https://github.com/HiteshHonmane/TuneTreak",
     ReactSvg: ""
   }
 
