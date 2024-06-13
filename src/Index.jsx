@@ -54,6 +54,21 @@ function Index() {
     ReactSvg: ""
   }
 
+  
+  const ReactLauncher={
+    name:"VsCode Extension React Launcher",
+    index:"01",
+    Highlight1:"Automation",
+    Highlight2:"Launche Any App",
+    detailText:"",
+    imageSrc1: "/Blog Images/blog login-portrait.png",
+    imageSrc2:"/Blog Images/blog createac-portrait.png",
+    imageSrc3: "/Blog Images/blog addpost-portrait.png",
+    imageSrc4: "/Blog Images/blog posts mac.png",
+    LiveWebLink:"https://blog-platform-peach.vercel.app/",
+    CodeBaseLink:"https://github.com/HiteshHonmane/Blog-Platform"
+  }
+
 
 
   return (
