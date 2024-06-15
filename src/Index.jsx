@@ -7,6 +7,7 @@ import SkillsIndex from './Components/SkillsIndex'
 import Blog from './Components/Projects/Blog'
 import Spotify from './Components/Projects/TuneTreak'
 import Pilors from './Components/Projects/Pilors'
+import VsCodeExt from './Components/Projects/VscodeExt'
 
 // import ParallaxEffect from './Components/Parallex'
 
@@ -61,11 +62,9 @@ function Index() {
     Highlight1:"Automation",
     Highlight2:"Launche Any App",
     detailText:"",
-    imageSrc1: "/Blog Images/blog login-portrait.png",
-    imageSrc2:"/Blog Images/blog createac-portrait.png",
-    imageSrc3: "/Blog Images/blog addpost-portrait.png",
-    imageSrc4: "/Blog Images/blog posts mac.png",
-    LiveWebLink:"https://blog-platform-peach.vercel.app/",
+    imageSrc1: "/vscodeExtension/extension pc-front.png",
+    imageSrc2:"/vscodeExtension/ipadExtension.png",
+    LiveWebLink:"https://marketplace.visualstudio.com/items?itemName=HiteshShivajiHonmane.vite-launcher",
     CodeBaseLink:"https://github.com/HiteshHonmane/Blog-Platform"
   }
 
@@ -75,9 +74,11 @@ function Index() {
     <>
     <Hero/>
     <About/>
+    <VsCodeExt {...ReactLauncher}/>
     <Blog {...projectObjBlog}/>
     <Spotify {...projectObjSpotify} />
     <Pilors {...projectObjPilors} />
+
     <SkillsIndex/>
     <Contact/>
     
