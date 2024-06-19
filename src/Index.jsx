@@ -64,6 +64,7 @@ function Index() {
     detailText:"",
     imageSrc1: "/vscodeExtension/extension pc-front.png",
     imageSrc2:"/vscodeExtension/ipadExtension.png",
+    vidSrc3: "https://youtu.be/Wfpa_lcMBU8?si=k-68DNl4NaGSH02V",
     LiveWebLink:"https://marketplace.visualstudio.com/items?itemName=HiteshShivajiHonmane.vite-launcher",
     CodeBaseLink:"https://github.com/HiteshHonmane/Blog-Platform"
   }
