@@ -1,11 +1,27 @@
+Screen Laptop:
+Vscode project text issue.
+Blog/Tunetreak/
+Black strip:
 
-Context Writing For Build Project.
- 1.Blog Project
- 2.Pilors Project 
- 3.Netflix Clone UI
- 4.Spotify Clone Project.
+Mobile Screen:
+Vs code 
+image 2 small.
+YT Issue.
 
-Creating project Object
+// Shift 
+Blog website to Down below
+Image update
 
- 1. Mock images
- 2. Text Context
+//Music app image update
+  // Music mobile app
+
+// About us Animation too fast on mobile screen.
+mobile screens links clickable.
+
+architecture agency 
+IMAGES UPDATE.
+
+// uPDATE SKILLS SECTION
+  Add skills.
+  
+
