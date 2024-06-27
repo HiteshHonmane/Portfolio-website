@@ -82,9 +82,9 @@ function VsCodeExt(props) {
     {
       type: "image",
       src: props.imageSrc1,
-      y: sm,
+      y: md,
       width: "40vw",
-      mobileWidth: "30vw",
+      mobileWidth: "80vw",
     },
     {
       type: "image",
@@ -93,19 +93,14 @@ function VsCodeExt(props) {
       width: "20vw",
       mobileWidth: "45vw",
     },
-    {
-      type: "video",
-      src: props.vidSrc3,
-      y: md,
-      width: "18vw",
-      mobileWidth: "55vw",
-    },
+    
     {
       type: "iframe",
       src: "https://www.youtube.com/embed/Wfpa_lcMBU8?si=G6mtg3-InU5O_kiY",
       y: xl,
       width: "560px",
       height: "315px",
+      mobileWidth:"45vw",
     },
     {
       type: "image",
@@ -148,12 +143,11 @@ function VsCodeExt(props) {
           className="relative sm:mb-0 mb-[50vh] sm:top-[-186px] flex flex-col items-start px-5 sm:px-24 lg:mb-[40vh] 2xl:mb-0 xl:top-[100px] xl:w-full xl:pr-0 xl:pl-10% 2xl:top-[-186px]"
         >
           <div className="relative w-[100%]">
-            <h2 className="h-[70%] font-Avenir text-[50px] sm:text-3xl font-bold text-[#333333] dark:text-gray-950 relative lg:text-5xl xl:text-4xl 2xl:text-4xl">
+            <h2 className="h-[70%] font-Avenir text-[50px] sm:text-3xl  font-bold text-[#333333] dark:text-gray-950 relative lg:text-5xl xl:text-3xl 2xl:text-4xl  ">
               {props.name}
             </h2>
-            <div className="absolute mt-2 inset-0 h-[83%] z-10 bg-black black-strip-vscode"></div>
+            <div className="absolute mt-2 inset-0 h-[88%] z-10 bg-black black-strip-vscode"></div>
           </div>
-
           <div className="flex w-[100%] relative z-0">
             <h4 className="font-AvenirMedium text-[#333333] sm:text-px text-[20px] dark:text-gray-400">
               {props.Highlight1}
@@ -238,7 +232,7 @@ function VsCodeExt(props) {
         className="sm:h-[100vh] sm:w-[50vw] w-[100vw] h-[100vh] lg:w-[100vw] relative flex justify-center top-[-80vh] 2xl:w-[50vw] 2xl:h-[250vh] 2xl:top-[100vh] lg:top-[50vh] gap-[5vh] 2xl:gap-3 lg:gap-[3vh] flex-wrap xl:w-[50vw]"
       >
         {elements.map((element, index) => {
-          if (element.type === "image" || element.type === "video") {
+          if (element.type === "image" || element.type === "video" ) {
             return (
               <motion.div
                 key={Id + index}
@@ -263,7 +257,7 @@ function VsCodeExt(props) {
               <motion.div
                 key={Id + index}
                 style={{ y: element.y }}
-                className="flex relative flex-wrap overflow-x-hidden justify-end items-end mr-4"
+                className="flex relative flex-wrap overflow-x-hidden justify-end items-end m-4 "
               >
                 <iframe
                   width={element.width}

@@ -16,7 +16,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-function Spotify(props) {
+function TuneTreak(props) {
   useEffect(() => {
     const pinSide = document.querySelector("#left-side-spotify");
     const target = document.querySelector("#main-project-spotify");
@@ -128,7 +128,7 @@ function Spotify(props) {
   >
     <div
       id="left-side-spotify"
-      className="flex flex-col   justify-between relative w-[100vw] h-[100vh]  sm:w-[50vw] lg:w-[100vw] opacity-0  xl:h-[100vh]  xl:w-[50vw]  2xl:h-[100vh]  2xl:w-[50vw] "
+      className="flex flex-col justify-between relative w-[100vw] h-[100vh]  sm:w-[50vw] lg:w-[100vw] opacity-0  xl:h-[100vh]  xl:w-[50vw]  2xl:h-[100vh]  2xl:w-[50vw] "
     >
       <div className=" flex relative w-full h-[5%] lg:mt-24 ">
         <div
@@ -145,7 +145,7 @@ function Spotify(props) {
         className="relative sm:mb-0 mb-[50vh] sm:top-[-186px] flex flex-col items-start  px-5 sm:px-24 lg:mb-[40vh] 2xl:mb-0 xl:top-[100px] xl:w-full xl:pr-0 xl:pl-10% 2xl:top-[-186px]  "
       >
         <div className="relative w-[100%]">
-          <h2 className=" h-[70%] font-Avenir text-[50px] sm:text-3xl  font-bold text-[#333333]   dark:text-gray-950 relative lg:text-5xl xl:text-4xl 2xl:text-4xl ">
+          <h2 className=" h-[70%] font-Avenir text-[50px] sm:text-3xl  font-bold text-[#333333]   dark:text-gray-950 relative lg:text-5xl xl:text-3xl 2xl:text-4xl ">
             {props.name}
           </h2>
           <div className="absolute mt-2 inset-0 h-[83%]  z-10 bg-black black-strip-spotify"></div>
@@ -261,4 +261,4 @@ function Spotify(props) {
 );
 }
 
-export default Spotify;
+export default TuneTreak;

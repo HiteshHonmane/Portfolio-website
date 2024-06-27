@@ -1,27 +1,32 @@
+Animation revert every scroll.
+
 Screen Laptop:
 Vscode project text issue.
-Blog/Tunetreak/
+Blog/Tunetreak/ Screen 17 inches laptop
 Black strip:
+
+15.6 inches screen.
+TuneTreak(Music) Black streep   Fixed
 
 Mobile Screen:
 Vs code 
-image 2 small.
-YT Issue.
+image 2 small.    Fixed
+YT Issue.         Fixed 
 
 // Shift 
-Blog website to Down below
+Blog website to Down below indxing as well  Fixed
 Image update
 
 //Music app image update
-  // Music mobile app
+Dependent-----------------  // Music mobile app
 
 // About us Animation too fast on mobile screen.
 mobile screens links clickable.
 
 architecture agency 
-IMAGES UPDATE.
+Dependent-------------------IMAGES UPDATE.
 
 // uPDATE SKILLS SECTION
   Add skills.
   
-
+Pilotrs Preview links and Deplaoyment link 

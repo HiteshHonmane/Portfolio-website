@@ -15,7 +15,7 @@ import VsCodeExt from './Components/Projects/VscodeExt'
 function Index() {
   const projectObjBlog={
     name:"Blog Website",
-    index:"01",
+    index:"03",
     Highlight1:"Auth Services",
     Highlight2:"Write Blog & Post it ",
     detailText:"",
@@ -28,7 +28,7 @@ function Index() {
   }
   const projectObjPilors={ 
     name:"Architect & Interior",
-    index:"03",
+    index:"04",
     Highlight1:"Interactive",
     Highlight2:"GSAP Animations",
     detailText:"",
@@ -39,7 +39,7 @@ function Index() {
     CodeBaseLink:""
   }
 
-  const projectObjSpotify={
+  const projectObjTuneTreak={
     name:"TuneTreak(Music)",
     index:"02",
     Highlight1:"REST API Handling",
@@ -76,10 +76,9 @@ function Index() {
     <Hero/>
     <About/>
     <VsCodeExt {...ReactLauncher}/>
+    <Spotify {...projectObjTuneTreak} />
     <Blog {...projectObjBlog}/>
-    <Spotify {...projectObjSpotify} />
     <Pilors {...projectObjPilors} />
-
     <SkillsIndex/>
     <Contact/>
     
