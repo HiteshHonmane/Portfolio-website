@@ -97,7 +97,7 @@ function Projects(props) {
     {
       src: props.imageSrc3,
       y: md,
-      width: "18vw",
+      width: "40vw",
       mobileWidth: "55vw",
      
     },

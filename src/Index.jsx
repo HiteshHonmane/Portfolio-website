@@ -19,10 +19,10 @@ function Index() {
     Highlight1:"Auth Services",
     Highlight2:"Write Blog & Post it ",
     detailText:"",
-    imageSrc1: "/Blog Images/blog login-portrait.png",
-    imageSrc2:"/Blog Images/blog createac-portrait.png",
-    imageSrc3: "/Blog Images/blog addpost-portrait.png",
-    imageSrc4: "/Blog Images/blog posts mac.png",
+    imageSrc1: "/Blog Images/RunoLoginMobile.png",
+    imageSrc2:"/Blog Images/RunoSignupMobile.png",
+    imageSrc3: "/Blog Images/RonoWriteMac.png",
+    imageSrc4: "/Blog Images/RunoMainPageMac.png",
     LiveWebLink:"https://blog-platform-peach.vercel.app/",
     CodeBaseLink:"https://github.com/HiteshHonmane/Blog-Platform"
   }
