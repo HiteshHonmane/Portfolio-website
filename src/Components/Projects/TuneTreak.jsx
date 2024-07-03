@@ -85,7 +85,7 @@ function TuneTreak(props) {
     {
       src: props.imageSrc1,
       y: sm,
-      width: "14vw",
+      width: "45vw",
       mobileWidth: "30vw",
       
     },

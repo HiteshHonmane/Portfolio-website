@@ -33,10 +33,12 @@ function Index() {
     Highlight2:"GSAP Animations",
     detailText:"",
     imageSrc1: "Pilors/pilors mac.png",
-    imageSrc2:" ",
-    imageSrc3: "",
-    LiveWebLink:"",
-    CodeBaseLink:""
+    // imageSrc2:" public/Pilors/pilors service mobile.png",
+    // imageSrc3: "public/Pilors/pilors service mac.png",
+    // imageSrc4: "public/Pilors/pilors main page mobile.png",
+
+    LiveWebLink:"https://architect-and-interior.vercel.app/",
+    CodeBaseLink:"https://github.com/HiteshHonmane/Architect-and-Interior"
   }
 
   const projectObjTuneTreak={
@@ -45,10 +47,10 @@ function Index() {
     Highlight1:"REST API Handling",
     Highlight2:"Search Songs",
     detailText:"",
-    imageSrc1: "/Spotify Images/spotify playlist.png",
-    imageSrc2:"/Spotify Images/spotify library.png",
-    imageSrc3: "/Spotify Images/spotify ipad mini.png",
-    imageSrc4: "/Spotify Images/spotify  macbook.png",
+    imageSrc1: "public/tunetreak music/tunetreakMac.png",
+    imageSrc2:"",
+    imageSrc3: "",
+    imageSrc4: "",
     imageSrc5: "",
     LiveWebLink:"https://tune-treak-91l5dhv6t-hiteshs-projects-b3999c5b.vercel.app/",
     CodeBaseLink:"https://github.com/HiteshHonmane/TuneTreak",
