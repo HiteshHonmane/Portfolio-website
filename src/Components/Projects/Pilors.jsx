@@ -88,19 +88,31 @@ function Pilors(props) {
     {
       src: props.imageSrc1,
       y: sm,
+      width: "40vw",
+      mobileWidth: "90vw",
+      
     },
     {
       src: props.imageSrc2,
       y: lg,
+      width: "14vw",
+      mobileWidth: "30vw"
     },
     {
       src: props.imageSrc3,
       y: md,
+      width: "15vw",
+      mobileWidth: "45vw",
+     
+      
     },
 
     {
       src: props.imageSrc4,
       y: xxl,
+      width: "40vw",
+      mobileWidth: "55vw",
+     
     },
     {
       src: props.imageSrc5,
@@ -140,7 +152,7 @@ function Pilors(props) {
           className="relative sm:mb-0 mb-[50vh] sm:top-[-186px] flex flex-col items-start  px-5 sm:px-24 lg:mb-[40vh] 2xl:mb-0 xl:top-[100px] xl:w-full xl:pr-0 xl:pl-10% 2xl:top-[-186px]  "
         >
           <div className="relative w-[100%]">
-            <h2 className=" h-[70%] font-Avenir text-[50px] sm:text-3xl  font-bold text-[#333333]  dark:text-gray-950 relative lg:text-5xl xl:text-3xl 2xl:text-4xl ">
+            <h2 className=" h-[70%] font-Avenir text-[50px] sm:text-3xl  font-bold text-[#333333]  dark:text-gray-950 relative lg:text-5xl xl:text-3xl 2xl:text-[70px] 3xl:text-4xl ">
               {props.name}
             </h2>
             <div className="absolute mt-2 inset-0 h-[83%]  z-10 bg-black black-strip-pilors"></div>

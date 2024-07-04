@@ -33,9 +33,9 @@ function Index() {
     Highlight2:"GSAP Animations",
     detailText:"",
     imageSrc1: "Pilors/pilors mac.png",
-    // imageSrc2:" public/Pilors/pilors service mobile.png",
-    // imageSrc3: "public/Pilors/pilors service mac.png",
-    // imageSrc4: "public/Pilors/pilors main page mobile.png",
+    imageSrc2:" public/Pilors/pilors main page mobile.png",
+    imageSrc3: "public/Pilors/pilors service mobile.png",
+    imageSrc4: "public/Pilors/pilors service mac.png",
 
     LiveWebLink:"https://architect-and-interior.vercel.app/",
     CodeBaseLink:"https://github.com/HiteshHonmane/Architect-and-Interior"
@@ -59,7 +59,7 @@ function Index() {
 
   
   const ReactLauncher={
-    name:"VsCode Extension React Launcher",
+    name:<><p>React Launcher <br />VsCode Extension</p></>,
     index:"01",
     Highlight1:"Automation",
     Highlight2:"Launche Any App",

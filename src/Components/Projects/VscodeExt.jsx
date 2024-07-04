@@ -18,7 +18,7 @@ function VsCodeExt(props) {
   useEffect(() => {
     const pinSide = document.querySelector("#left-side-vscode");
     const target = document.querySelector("#main-project-vscode");
-    
+
     const blackStrip = document.querySelectorAll(".black-strip-vscode");
     const leftSide=  document.querySelector("#left-side-vscode")
 
@@ -136,6 +136,7 @@ function VsCodeExt(props) {
             {props.index}
           </div>
           <div className="absolute inset-0 h-[80%] mt-14 sm:mt-0 sm:pt-0 w-[20%] xl:ml-12 z-10 bg-black black-strip-vscode ml-2"></div>
+
         </div>
 
         <div
@@ -143,10 +144,10 @@ function VsCodeExt(props) {
           className="relative sm:mb-0 mb-[50vh] sm:top-[-186px] flex flex-col items-start px-5 sm:px-24 lg:mb-[40vh] 2xl:mb-0 xl:top-[100px] xl:w-full xl:pr-0 xl:pl-10% 2xl:top-[-186px]"
         >
           <div className="relative w-[100%]">
-            <h2 className="h-[70%] font-Avenir text-[50px] sm:text-3xl  font-bold text-[#333333] dark:text-gray-950 relative lg:text-5xl xl:text-3xl 2xl:text-4xl  ">
+          <h2 className="h-[70%] font-Avenir 2xl:mt-28 3xl:mt-0  text-[50px] sm:text-3xl  font-bold text-[#333333] dark:text-gray-950 relative lg:text-5xl xl:text-3xl 2xl:text-[70px] 3xl:text-4xl  ">
               {props.name}
             </h2>
-            <div className="absolute mt-2 inset-0 h-[88%] z-10 bg-black black-strip-vscode"></div>
+            <div className="absolute 3xl:mt-2 2xl:mt-28 inset-0 3xl:h-[88%] 2xl:h-[58%] z-10 bg-black black-strip-vscode"></div>
           </div>
           <div className="flex w-[100%] relative z-0">
             <h4 className="font-AvenirMedium text-[#333333] sm:text-px text-[20px] dark:text-gray-400">
@@ -175,17 +176,9 @@ function VsCodeExt(props) {
               <img
                 className="sm:h-7 sm:m-1 h-4 mx-1 my-[5px]"
                 src="assets\Text Icons\Dot.svg"
-                alt=""
-              />
+                alt="" />
             </div>
-
             <img className="sm:w-9 w-6" src="\Skills Icons\Js.svg" alt="" />
-            <img className="sm:w-9 w-6" src="\Skills Icons\React.svg" alt="" />
-            <img
-              className="sm:w-9 w-6"
-              src="\Skills Icons\Tailwind.svg"
-              alt=""
-            />
             <div className="bg-black z-10 absolute w-full h-full black-strip-vscode"></div>
           </div>
         </div>
