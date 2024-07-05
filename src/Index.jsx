@@ -33,9 +33,9 @@ function Index() {
     Highlight2:"GSAP Animations",
     detailText:"",
     imageSrc1: "Pilors/pilors mac.png",
-    imageSrc2:" public/Pilors/pilors main page mobile.png",
-    imageSrc3: "public/Pilors/pilors service mobile.png",
-    imageSrc4: "public/Pilors/pilors service mac.png",
+    imageSrc2:" Pilors/pilors main page mobile.png",
+    imageSrc3: "Pilors/pilors service mobile.png",
+    imageSrc4: "Pilors/pilors service mac.png",
 
     LiveWebLink:"https://architect-and-interior.vercel.app/",
     CodeBaseLink:"https://github.com/HiteshHonmane/Architect-and-Interior"
@@ -47,7 +47,7 @@ function Index() {
     Highlight1:"REST API Handling",
     Highlight2:"Search Songs",
     detailText:"",
-    imageSrc1: "public/tunetreak music/tunetreakMac.png",
+    imageSrc1: "tunetreak music/tunetreakMac.png",
     imageSrc2:"",
     imageSrc3: "",
     imageSrc4: "",
