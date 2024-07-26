@@ -52,7 +52,7 @@ function Index() {
     imageSrc3: "",
     imageSrc4: "",
     imageSrc5: "",
-    LiveWebLink:"https://tune-treak-91l5dhv6t-hiteshs-projects-b3999c5b.vercel.app/",
+    LiveWebLink:"https://tune-treak.vercel.app/",
     CodeBaseLink:"https://github.com/HiteshHonmane/TuneTreak",
     ReactSvg: ""
   }
