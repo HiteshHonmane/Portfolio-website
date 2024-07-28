@@ -31,8 +31,8 @@ function Projects(props) {
       start: "top top", // Trigger pinning when the top of #main-project-section reaches the top of the viewport
       end: "bottom bottom", // Unpin when the bottom of #main-project-section reaches the bottom of the viewport
       pin: pinSide,
-      // markers: true,
-      // scrub: true,
+      markers: true,
+      
       toggleActions: "play none none reverse",
     });
 
