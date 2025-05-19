@@ -41,7 +41,7 @@ function Hero() {
           </h1>
           <p id="Frontend" className="font-Avenir text-center sm:text-xl font-normal text-l px-5 opacity-0 ">
             {" "}
-            PASSIONATE FRONT-END WEB DEVELOPER
+            PASSIONATE SOFTWARE DEVELOPER
           </p>
         </div>
       </div>
